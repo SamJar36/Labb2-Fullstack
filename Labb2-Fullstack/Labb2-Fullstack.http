@@ -1,0 +1,6 @@
+@Labb2_Fullstack_HostAddress = http://localhost:5080
+
+GET {{Labb2_Fullstack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
