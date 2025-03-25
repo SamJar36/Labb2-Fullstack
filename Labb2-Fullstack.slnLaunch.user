@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Labb2-Fullstack\\Labb2-REST API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BlazorWebApp\\BlazorWebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
