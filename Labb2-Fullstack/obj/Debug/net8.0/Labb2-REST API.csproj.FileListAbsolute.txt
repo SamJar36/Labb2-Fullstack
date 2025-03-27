@@ -7,7 +7,6 @@ C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\Lab
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\Labb2-REST API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\appsettings.json
-C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Labb2-REST API.staticwebassets.endpoints.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Labb2-REST API.exe
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Labb2-REST API.deps.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Labb2-REST API.runtimeconfig.json
@@ -22,14 +21,11 @@ C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Swa
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\scopedcss\bundle\Labb2-REST API.styles.css
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.Labb2-REST API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.Labb2-REST API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.build.Labb2-REST API.props
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Labb2-REST API.props
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Labb2-REST API.props
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\Labb2-RE.9406A6AD.Up2Date
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\Labb2-REST API.dll
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\refint\Labb2-REST API.dll

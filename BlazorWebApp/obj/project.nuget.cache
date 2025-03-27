@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mcvWwri+oeI=",
+  "dgSpecHash": "cE7tVqoXnz0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorWebApp\\BlazorWebApp.csproj",
+  "projectFilePath": "C:\\Users\\saman\\Source\\Repos\\Labb2-Fullstack\\BlazorWebApp\\BlazorWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.14\\microsoft.aspnetcore.authorization.8.0.14.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.14\\microsoft.aspnetcore.components.8.0.14.nupkg.sha512",
@@ -32,12 +32,11 @@
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.jsinterop\\8.0.14\\microsoft.jsinterop.8.0.14.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.14\\microsoft.jsinterop.webassembly.8.0.14.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.net.http.headers\\2.3.0\\microsoft.net.http.headers.2.3.0.nupkg.sha512",
-    "C:\\Users\\saman\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.14\\microsoft.net.illink.tasks.8.0.14.nupkg.sha512",
-    "C:\\Users\\saman\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.3\\microsoft.net.sdk.webassembly.pack.9.0.3.nupkg.sha512",
+    "C:\\Users\\saman\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
+    "C:\\Users\\saman\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.8\\microsoft.net.sdk.webassembly.pack.8.0.8.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\saman\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\saman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.14.nupkg.sha512"
+    "C:\\Users\\saman\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

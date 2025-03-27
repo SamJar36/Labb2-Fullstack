@@ -15,7 +15,7 @@ namespace Labb2_REST_API.Controllers
             _repository = repository;
         }
 
-        [HttpPost("create")]
+        [HttpPost]
         public async Task<IActionResult> CreateCustomer([FromBody] Customer customer)
         {
             if (customer == null)
@@ -25,7 +25,7 @@ namespace Labb2_REST_API.Controllers
             var createdCustomer = await _repository.CreateCustomerAsync(customer);
             return CreatedAtAction(nameof(CreateCustomer), new { id = customer.Id }, createdCustomer);
         }
-        [HttpDelete("delete/{id}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(Guid id)
         {
             var success = await _repository.DeleteCustomerAsync(id);
@@ -75,7 +75,7 @@ namespace Labb2_REST_API.Controllers
                 Customer = customer
             });
 		}
-		[HttpPut("update/{id}")]
+		[HttpPut("{id}")]
 		public async Task<IActionResult> UpdateCustomer(Guid id, [FromBody] Customer customer)
 		{
             var updatedCustomer = await _repository.UpdateCustomerAsync(id, customer);

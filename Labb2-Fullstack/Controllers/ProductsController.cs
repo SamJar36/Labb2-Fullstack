@@ -16,7 +16,7 @@ namespace Labb2_REST_API.Controllers
 			_repository = repository;
 		}
 
-		[HttpDelete("delete/{id}")]
+		[HttpDelete("{id}")]
 		public async Task<IActionResult> DeleteProduct(int id)
 		{
 			var product = await _repository.GetProductByIdAsync(id);
@@ -33,7 +33,7 @@ namespace Labb2_REST_API.Controllers
 			});
 		}
 
-		[HttpPut("update/{id}")]
+		[HttpPut("{id}")]
 		public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product updatedProduct)
 		{
 			if (id != updatedProduct.Id)
@@ -58,6 +58,26 @@ namespace Labb2_REST_API.Controllers
 				Message = "Product updated successfully.",
 				Product = product});
 		}
+		[HttpPatch("{id}/status/{statusUpdate}")]
+		public async Task<IActionResult> UpdateStatus(int id, string statusUpdate)
+		{
+			var product = await _repository.GetProductByIdAsync(id);
+
+			if (product == null)
+			{
+				return NotFound("Product not found");
+			}
+			if (statusUpdate != "in stock" && statusUpdate != "out of stock")
+			{
+				return BadRequest("Only 'in stock' or 'out of stock");
+			}
+
+			product.Status = statusUpdate;
+			await _repository.UpdateProductAsync(product);
+			
+			return Ok("Status updated");
+		}
+
 		[HttpGet("search-by-name/{name}")]
 		public async Task<IActionResult> SearchProductByName(string name)
 		{

@@ -1,0 +1,47 @@
+﻿@page "/customers"
+@using Shared
+@inject HttpClient Http
+
+<h3>Customer List</h3>
+
+@if (customers == null)
+{
+	<p>Loading...</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>First name: </th>
+				<th>Last name: </th>
+				<th>Email: </th>
+				<th>Phone number: </th>
+				<th>Address: </th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var customer in customers)
+			{
+				<tr>
+					<td>@customer.FirstName</td>
+					<td>@customer.LastName</td>
+					<td>@customer.Email</td>
+					<td>@customer.PhoneNumber</td>
+					<td>@customer.Address</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	private List<Customer> customers;
+
+	protected override async Task OnInitializedAsync()
+	{
+		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+	}
+	
+}
