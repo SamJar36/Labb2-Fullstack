@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorwebapp\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|solutionrelative:blazorwebapp\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|solutionrelative:blazorwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorwebapp\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|solutionrelative:blazorwebapp\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAF7D2D-BB1E-489F-BFC9-7BEDFAF0F361}|BlazorWebApp\\BlazorWebApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,15 +86,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Program.cs",
               "RelativeToolTip": "BlazorApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T12:15:46.59Z"
+              "WhenOpened": "2025-03-25T12:15:46.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,15 +111,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorWebApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorWebApp\\Program.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorWebApp\\Program.cs",
               "RelativeToolTip": "BlazorWebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:54:44.052Z"
+              "WhenOpened": "2025-03-25T11:54:44.052Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Customers.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorWebApp\\Pages\\Customers.razor",
               "RelativeDocumentMoniker": "BlazorWebApp\\Pages\\Customers.razor",
