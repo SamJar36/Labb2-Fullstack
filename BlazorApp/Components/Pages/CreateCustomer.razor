@@ -1,0 +1,71 @@
+﻿@page "/register-customer"
+@using Shared
+@inject HttpClient Http
+@inject ILogger<CreateCustomer> Logger
+
+<EditForm Model="createdCustomer" OnValidSubmit="Submit" FormName="register-customer">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>
+            First name:
+            <InputText @bind-Value="createdCustomer.FirstName" />
+        </label>
+        <br />
+        <label>
+            Last name:
+            <InputText @bind-Value="createdCustomer.LastName" />
+        </label>
+        <br />
+        <label>
+            Email:
+            <InputText @bind-Value="createdCustomer.Email" type="email" />
+        </label>
+        <br />
+        <label>
+            Phone Number:
+            <InputText @bind-Value="createdCustomer.PhoneNumber" type="tel" />
+        </label>
+        <br />
+        <label>
+            Address:
+            <InputText @bind-Value="createdCustomer.Address" />
+        </label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</EditForm>
+
+@if (isSuccess)
+{
+    <p>Customer created successfully!</p>
+}
+
+@code {
+    [SupplyParameterFromForm]
+    private Customer createdCustomer { get; set; } = new Customer();
+    private List<Customer> customers { get; set; }
+    private bool isSuccess;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+    }
+
+    private async Task Submit()
+    {
+        var response = await Http.PostAsJsonAsync("api/customers", createdCustomer);
+        if (response.IsSuccessStatusCode)
+        {
+            isSuccess = true;
+            customers.Add(createdCustomer);
+            createdCustomer = new Customer();
+        }
+        else
+        {
+            isSuccess = false;
+        }
+    }
+}
