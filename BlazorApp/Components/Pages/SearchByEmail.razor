@@ -1,0 +1,50 @@
+﻿@page "/search-customer"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+<h3>Search Customer by Email</h3>
+<input @bind="inputValue" placeholder="Enter email" />
+<button @onclick="() => SearchCustomerByEmail(inputValue)">Go</button>
+
+<ul>
+	@if (customersWithEmail != null)
+	{
+		@foreach (var customer in customersWithEmail)
+		{
+			<li>
+				<hr />
+				<strong>Id: </strong> @customer.Id <br />
+				<strong>First Name:</strong> @customer.FirstName <br />
+				<strong>Last Name:</strong> @customer.LastName <br />
+				<strong>Email:</strong> @customer.Email <br />
+				<strong>Phone Number:</strong> @customer.PhoneNumber <br />
+				<strong>Address:</strong> @customer.Address <br />
+			</li>
+		}
+	}
+</ul>
+
+@code {
+	private string inputValue;
+
+	private List<Customer> customersWithEmail = new List<Customer>();
+
+	private List<Customer> customers;
+
+	protected override async Task OnInitializedAsync()
+	{
+		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+	}
+
+	private async Task SearchCustomerByEmail(string email)
+	{
+		customersWithEmail.Clear();
+		var response = await Http.GetAsync($"api/customers/search-by-email/{email}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			customersWithEmail = customers.Where(c => c.Email == email).ToList();
+		}
+	}
+}
