@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Labb2-REST API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c0ccaa16f1ee39fc121229dc3c5e0d47b4a538")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3be3dc8f655a976965135a256f017bc53cd2c862")]
 [assembly: System.Reflection.AssemblyProductAttribute("Labb2-REST API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Labb2-REST API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,3 +32,7 @@ C:\Users\saman\Source\Repos\Labb2-Fullstack\BlazorApp\bin\Debug\net8.0\Shared.dl
 C:\Users\saman\Source\Repos\Labb2-Fullstack\BlazorApp\bin\Debug\net8.0\Shared.pdb
 C:\Users\saman\Source\Repos\Labb2-Fullstack\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.AssemblyReference.cache
 C:\Users\saman\Source\Repos\Labb2-Fullstack\BlazorApp\obj\Debug\net8.0\BlazorApp.csproj.Up2Date
+C:\Users\saman\source\repos\Labb2-Fullstack\BlazorApp\bin\Debug\net8.0\BlazorApp.staticwebassets.endpoints.json
+C:\Users\saman\source\repos\Labb2-Fullstack\BlazorApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\saman\source\repos\Labb2-Fullstack\BlazorApp\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\saman\source\repos\Labb2-Fullstack\BlazorApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

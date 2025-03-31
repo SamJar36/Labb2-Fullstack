@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\searchbyemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -124,14 +124,14 @@
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAgwDoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEQAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-31T12:40:03.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor",
@@ -139,30 +139,31 @@
               "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T12:33:31.664Z"
+              "WhenOpened": "2025-03-31T12:33:31.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T19:19:25.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
               "RelativeToolTip": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewBMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T12:12:18.312Z",
               "EditorCaption": ""
@@ -175,14 +176,14 @@
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Customer.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
               "RelativeToolTip": "Labb2-Fullstack\\Models\\Customer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T09:33:49.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Customers.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Customers.razor",
@@ -190,8 +191,7 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Customers.razor",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T16:32:29.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:32:29.312Z"
             },
             {
               "$type": "Document",
@@ -219,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
@@ -413,9 +413,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Labb2-REST API.csproj",
-              "DocumentMoniker": "C:\\Users\\saman\\Source\\Repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Labb2-REST API.csproj",
-              "ToolTip": "C:\\Users\\saman\\Source\\Repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
               "RelativeToolTip": "Labb2-Fullstack\\Labb2-REST API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

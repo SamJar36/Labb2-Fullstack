@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "BlazorWebApp\\BlazorWebApp.csproj",
+        "Path": "BlazorApp\\BlazorApp.csproj",
         "Action": "Start"
       }
     ]

@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/customers/create": {
+    "/api/customers": {
       "post": {
         "tags": [
           "Customers"
@@ -34,9 +34,19 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Customers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
-    "/api/customers/delete/{id}": {
+    "/api/customers/{id}": {
       "delete": {
         "tags": [
           "Customers"
@@ -57,21 +67,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/customers": {
-      "get": {
-        "tags": [
-          "Customers"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/customers/{id}": {
+      },
       "get": {
         "tags": [
           "Customers"
@@ -87,6 +83,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Customers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -116,49 +152,7 @@
         }
       }
     },
-    "/api/customers/update/{id}": {
-      "put": {
-        "tags": [
-          "Customers"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/products/delete/{id}": {
+    "/api/products/{id}": {
       "delete": {
         "tags": [
           "Products"
@@ -179,9 +173,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/products/update/{id}": {
+      },
       "put": {
         "tags": [
           "Products"
@@ -216,6 +208,37 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/products/{id}/status/{statusUpdate}": {
+      "patch": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "statusUpdate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

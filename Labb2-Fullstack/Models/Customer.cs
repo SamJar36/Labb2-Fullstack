@@ -18,5 +18,5 @@ public partial class Customer
 
     public string Address { get; set; } = null!;
 
-    public List<Product> Orders { get; set; }
+    //public List<Product> Orders { get; set; }
 }
