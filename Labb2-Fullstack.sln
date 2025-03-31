@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labb2-REST API", "Labb2-Ful
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{94716B27-63EC-4FDB-AA5B-71A4B15A3056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{E182755D-1006-45B1-A0EE-1ED143171835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{E182755D-1006-45B1-A0EE-1ED143171835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
