@@ -14,8 +14,8 @@ namespace Labb2_REST_API.Repositories
 
 		public async Task<Customer> CreateCustomerAsync(Customer customer)
 		{
-			customer.Id = Guid.NewGuid();
-			_context.Customers.Add(customer);
+            customer.Id = Guid.NewGuid();
+            _context.Customers.Add(customer);
 			await _context.SaveChangesAsync();
 			return customer;
 		}

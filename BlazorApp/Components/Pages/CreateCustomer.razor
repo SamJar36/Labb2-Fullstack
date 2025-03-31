@@ -42,6 +42,15 @@
 {
     <p>Customer created successfully!</p>
 }
+@if (!isSuccess)
+{
+    <p>@createdCustomer.Id</p>
+    <p>@createdCustomer.FirstName</p>
+    <p>@createdCustomer.LastName</p>
+    <p>@createdCustomer.Email</p>
+    <p>@createdCustomer.PhoneNumber</p>
+    <p>@createdCustomer.Address</p>
+}
 
 @code {
     [SupplyParameterFromForm]
@@ -56,6 +65,7 @@
 
     private async Task Submit()
     {
+        createdCustomer.Id = Guid.NewGuid();
         var response = await Http.PostAsJsonAsync("api/customers", createdCustomer);
         if (response.IsSuccessStatusCode)
         {
