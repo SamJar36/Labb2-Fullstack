@@ -96,6 +96,16 @@
   },
   {
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/products/{id}",
     "HttpMethod": "DELETE",

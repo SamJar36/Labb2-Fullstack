@@ -152,6 +152,18 @@
         }
       }
     },
+    "/api/products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/products/{id}": {
       "delete": {
         "tags": [

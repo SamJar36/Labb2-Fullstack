@@ -1,0 +1,60 @@
+﻿@rendermode InteractiveServer
+@page "/products"
+@using Shared
+@inject HttpClient Http
+
+<h3>Customer List</h3>
+
+@if (products == null)
+{
+	<p>Loading...</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id: </th>
+				<th>Product name: </th>
+				<th>Product description: </th>
+				<th>Price: </th>
+				<th>Product category: </th>
+				<th>Status: </th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var product in products)
+			{
+				<tr>
+					<td>@product.Id</td>
+					<td>@product.ProductName</td>
+					<td>@product.ProductDescription</td>
+					<td>@product.Price</td>
+					<td>@product.ProductCategory</td>
+					<td>@product.Status</td>
+					<td>
+						<button @onclick="() => UpdateProduct(product.Id)">Update</button>
+						<button @onclick="() => DeleteProduct(product.Id)">Delete</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+@code {
+	private List<Product> products;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+	}
+	private async Task UpdateProduct(int Id)
+	{
+
+	}
+	private async Task DeleteProduct(int id)
+	{
+		
+	}
+}

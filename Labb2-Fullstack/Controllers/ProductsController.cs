@@ -15,8 +15,14 @@ namespace Labb2_REST_API.Controllers
 		{
 			_repository = repository;
 		}
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var products = await _repository.GetAllProductsAsync();
+            return Ok(products);
+        }
 
-		[HttpDelete("{id}")]
+        [HttpDelete("{id}")]
 		public async Task<IActionResult> DeleteProduct(int id)
 		{
 			var product = await _repository.GetProductByIdAsync(id);

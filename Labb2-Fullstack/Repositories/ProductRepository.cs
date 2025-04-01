@@ -10,8 +10,12 @@ namespace Labb2_REST_API.Repositories
 		{
 			_context = context;
 		}
+        public async Task<IEnumerable<Product>> GetAllProductsAsync()
+		{
+            return await _context.Products.ToListAsync();
+        }
 
-		public async Task<Product> GetProductByIdAsync(int id)
+        public async Task<Product> GetProductByIdAsync(int id)
 		{
 			return await _context.Products.FindAsync(id);
 		}

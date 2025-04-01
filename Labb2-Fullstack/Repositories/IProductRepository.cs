@@ -8,5 +8,6 @@ namespace Labb2_REST_API.Repositories
 		Task<Product> GetProductByNameAsync(string name);
 		Task DeleteProductAsync(Product product);
 		Task UpdateProductAsync(Product product);
-	}
+        Task<IEnumerable<Product>> GetAllProductsAsync();
+    }
 }
