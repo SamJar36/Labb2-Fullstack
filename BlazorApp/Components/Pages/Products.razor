@@ -53,8 +53,21 @@ else
 	{
 
 	}
-	private async Task DeleteProduct(int id)
+	private async Task DeleteProduct(int productId)
 	{
-		
+		var response = await Http.DeleteAsync($"api/products/{productId}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			var product = products.FirstOrDefault(c => c.Id == productId);
+			if (product != null)
+			{
+				products.Remove(product);
+			}
+			else
+			{
+				Console.WriteLine("Error deleting customer");
+			}
+		}
 	}
 }
