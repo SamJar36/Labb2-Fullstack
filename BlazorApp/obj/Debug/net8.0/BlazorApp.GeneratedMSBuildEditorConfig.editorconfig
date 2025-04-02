@@ -48,8 +48,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2hCeUVtYWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/saman/source/repos/Labb2-Fullstack/BlazorApp/Components/Pages/SearchProduct.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2hQcm9kdWN0LnJhem9y
+[C:/Users/saman/source/repos/Labb2-Fullstack/BlazorApp/Components/Pages/SearchProductId.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2hQcm9kdWN0SWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saman/source/repos/Labb2-Fullstack/BlazorApp/Components/Pages/SearchProductName.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2hQcm9kdWN0TmFtZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/saman/source/repos/Labb2-Fullstack/BlazorApp/Components/Routes.razor]

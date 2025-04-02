@@ -1,0 +1,51 @@
+﻿@page "/search-product-id"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+<h3>Search Product by ID</h3>
+<input @bind="inputValue" placeholder="Enter ID" />
+<button @onclick="() => SearchById(inputValue)">Go</button>
+<br />
+
+<ul>
+	@if (productsWithId != null)
+	{
+		@foreach (var product in productsWithId)
+		{
+			<li>
+				<hr />
+				<strong>Id: </strong> @product.Id <br />
+				<strong>Product name:</strong> @product.ProductName <br />
+				<strong>Product description:</strong> @product.ProductDescription <br />
+				<strong>Price:</strong> @product.Price <br />
+				<strong>Product category:</strong> @product.ProductCategory<br />
+				<strong>Status:</strong> @product.Status <br />
+			</li>
+		}
+	}
+</ul>
+
+@code {
+	private int inputValue;
+
+	private List<Product> productsWithId = new List<Product>();
+
+	private List<Product> products;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+	}
+
+	private async Task SearchById(int id)
+	{
+		productsWithId.Clear();
+		var response = await Http.GetAsync($"api/products/search-by-id/{id}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			productsWithId = products.Where(c => c.Id == id).ToList();
+		}
+	}
+}

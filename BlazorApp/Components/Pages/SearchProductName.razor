@@ -1,9 +1,9 @@
-﻿@page "/search-product"
+﻿@page "/search-product-name"
 @rendermode InteractiveServer
 @using Shared
 @inject HttpClient Http
 
-<h3>Search Product by Name or ID</h3>
+<h3>Search Product by ID</h3>
 <input @bind="inputValue" placeholder="Enter name" />
 <button @onclick="() => SearchByName(inputValue)">Go</button><br />
 
