@@ -35,7 +35,7 @@ else
 					<td>@product.ProductCategory</td>
 					<td>@product.Status</td>
 					<td>
-						<button @onclick="() => UpdateProduct(product.Id)">Update</button>
+						<button @onclick="() => UpdateProduct(product.Id)">Edit</button>
 						<button @onclick="() => DeleteProduct(product.Id)">Delete</button>
 					</td>
 				</tr>
@@ -50,9 +50,9 @@ else
 	{
 		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
 	}
-	private async Task UpdateProduct(int Id)
+	private async Task UpdateProduct(int productId)
 	{
-
+		NavigationManager.NavigateTo($"/edit-product/{productId}");
 	}
 	private async Task DeleteProduct(int productId)
 	{

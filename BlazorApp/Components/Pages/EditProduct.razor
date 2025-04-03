@@ -1,0 +1,73 @@
+﻿@page "/edit-product/{productId:int}"
+@using Microsoft.AspNetCore.WebUtilities
+@rendermode InteractiveServer
+@using Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+<EditForm Model="editedProduct" OnValidSubmit="Submit" FormName="edit-product">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>
+            Product name:
+            <InputText @bind-Value="editedProduct.ProductName" />
+        </label>
+        <br />
+        <label>
+            Description:
+            <InputText @bind-Value="editedProduct.ProductDescription" style="width: 600px;" />
+        </label>
+        <br />
+        <label>
+            Price:
+            <InputNumber @bind-Value="editedProduct.Price" />
+        </label>
+        <br />
+        <label>
+            Category:
+            <InputText @bind-Value="editedProduct.ProductCategory" />
+        </label>
+        <br />
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</EditForm>
+
+@if (isSuccess)
+{
+        <p>Product edited successfully!</p>
+}
+
+@code {
+    private Product editedProduct { get; set; } = new Product();
+    private bool isSuccess;
+    [Parameter]
+    public int productId { get; set; }
+    private List<Product> products { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+        var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
+        if (response.IsSuccessStatusCode)
+        {
+            editedProduct = products.FirstOrDefault(c => c.Id == productId);
+        }
+    }
+
+    private async Task Submit()
+    {
+        var response = await Http.PutAsJsonAsync($"api/products/{productId}", editedProduct);
+        if (response.IsSuccessStatusCode)
+        {
+            isSuccess = true;
+        }
+        else
+        {
+            isSuccess = false;
+        }
+    }
+}
