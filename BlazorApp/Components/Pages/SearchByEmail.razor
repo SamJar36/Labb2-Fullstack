@@ -2,6 +2,7 @@
 @rendermode InteractiveServer
 @using Shared
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 <h3>Search Customer by Email</h3>
 <input @bind="inputValue" placeholder="Enter email" />
@@ -20,6 +21,8 @@
 				<strong>Email:</strong> @customer.Email <br />
 				<strong>Phone Number:</strong> @customer.PhoneNumber <br />
 				<strong>Address:</strong> @customer.Address <br />
+				<button @onclick="() => UpdateCustomer(customer.Id)">Edit</button>
+				<button @onclick="() => DeleteCustomer(customer.Id)">Delete</button>
 			</li>
 		}
 	}
@@ -45,6 +48,28 @@
 		if (response.IsSuccessStatusCode)
 		{
 			customersWithEmail = customers.Where(c => c.Email == email).ToList();
+		}
+	}
+	private async Task UpdateCustomer(Guid customerId)
+	{
+		NavigationManager.NavigateTo($"/edit-customer/{customerId}");
+	}
+	private async Task DeleteCustomer(Guid customerId)
+	{
+		var response = await Http.DeleteAsync($"api/customers/{customerId}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			var customer = customers.FirstOrDefault(c => c.Id == customerId);
+			if (customer != null)
+			{
+				customers.Remove(customer);
+				customersWithEmail.Remove(customer);
+			}
+			else
+			{
+				Console.WriteLine("Error deleting customer");
+			}
 		}
 	}
 }
