@@ -96,6 +96,22 @@
   },
   {
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/products",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Labb2_REST_API.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/products",
     "HttpMethod": "GET",

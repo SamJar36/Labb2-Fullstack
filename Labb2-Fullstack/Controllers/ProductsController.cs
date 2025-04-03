@@ -15,6 +15,15 @@ namespace Labb2_REST_API.Controllers
 		{
 			_repository = repository;
 		}
+        public async Task<IActionResult> CreateProduct([FromBody] Product product)
+        {
+            if (product == null)
+            {
+                return BadRequest("Customer data is null");
+            }
+            var createdProduct = await _repository.CreateProductAsync(product);
+            return CreatedAtAction(nameof(CreateProduct), new { id = product.Id }, createdProduct);
+        }
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

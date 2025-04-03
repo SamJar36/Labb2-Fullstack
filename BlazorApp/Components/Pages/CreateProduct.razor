@@ -1,0 +1,71 @@
+﻿@page "/create-product"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+<EditForm Model="createdProduct" OnValidSubmit="Submit" FormName="create-product">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>
+            Product name:
+            <InputText @bind-Value="createdProduct.ProductName" />
+        </label>
+        <br />
+        <label>
+            Description:
+            <InputText @bind-Value="createdProduct.ProductDescription" style="width: 600px;" />
+        </label>
+        <br />
+        <label>
+            Price:
+            <InputNumber @bind-Value="createdProduct.Price" />
+        </label>
+        <br />
+        <label>
+            Category:
+            <InputText @bind-Value="createdProduct.ProductCategory" />
+        </label>
+        <br />
+        <label>
+            Status: ("In stock", or "Out of stock")
+            <InputText @bind-Value="createdProduct.Status" />
+        </label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</EditForm>
+
+@if (isSuccess)
+{
+    <p>Product created successfully!</p>
+}
+
+@code {
+    [SupplyParameterFromForm]
+    private Product createdProduct { get; set; } = new Product();
+    private List<Product> products { get; set; }
+    private bool isSuccess;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+    }
+
+    private async Task Submit()
+    {
+        var response = await Http.PostAsJsonAsync("api/products", createdProduct);
+        if (response.IsSuccessStatusCode)
+        {
+            isSuccess = true;
+            products.Add(createdProduct);
+            createdProduct = new Product();
+        }
+        else
+        {
+            isSuccess = false;
+        }
+    }
+}

@@ -9,5 +9,6 @@ namespace Labb2_REST_API.Repositories
 		Task DeleteProductAsync(Product product);
 		Task UpdateProductAsync(Product product);
         Task<IEnumerable<Product>> GetAllProductsAsync();
+		Task<Product> CreateProductAsync(Product product);
     }
 }
