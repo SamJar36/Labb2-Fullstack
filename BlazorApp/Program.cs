@@ -8,7 +8,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddHttpClient();
-//builder.Services.AddScoped(sp => new HttpClient());
+
 var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(config["ApiBaseAddress"]) });
 

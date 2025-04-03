@@ -1,0 +1,77 @@
+﻿@page "/edit-customer/{customerId:guid}"
+@using Microsoft.AspNetCore.WebUtilities
+@rendermode InteractiveServer
+@using Shared
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+<EditForm Model="editedCustomer" OnValidSubmit="Submit" FormName="edit-customer">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>
+            First name:
+            <InputText @bind-Value="editedCustomer.FirstName" />
+        </label>
+        <br />
+        <label>
+            Last name:
+            <InputText @bind-Value="editedCustomer.LastName" />
+        </label>
+        <br />
+        <label>
+            Email:
+            <InputText @bind-Value="editedCustomer.Email" type="email" />
+        </label>
+        <br />
+        <label>
+            Phone Number:
+            <InputText @bind-Value="editedCustomer.PhoneNumber" type="tel" />
+        </label>
+        <br />
+        <label>
+            Address:
+            <InputText @bind-Value="editedCustomer.Address" />
+        </label>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</EditForm>
+
+@if (isSuccess)
+{
+    <p>Customer edited successfully!</p>
+}
+
+@code {
+    private Customer editedCustomer { get; set; } = new Customer();
+    private bool isSuccess;
+    [Parameter]
+    public Guid customerId { get; set; }
+    private List<Customer> customers { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+        var response = await Http.GetAsync($"api/customers/{customerId}");
+        if (response.IsSuccessStatusCode)
+        {
+            editedCustomer = customers.FirstOrDefault(c => c.Id == customerId);
+        }
+    }
+
+    private async Task Submit()
+    {
+        var response = await Http.PutAsJsonAsync($"api/customers/{customerId}", editedCustomer);
+        if (response.IsSuccessStatusCode)
+        {
+            isSuccess = true;
+        }
+        else
+        {
+            isSuccess = false;
+        }
+    }
+}
