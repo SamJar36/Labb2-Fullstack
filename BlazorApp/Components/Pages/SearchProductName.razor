@@ -2,6 +2,7 @@
 @rendermode InteractiveServer
 @using Shared
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 <h3>Search Product by Name</h3>
 <input @bind="inputValue" placeholder="Enter name" />
@@ -20,6 +21,8 @@
 				<strong>Price:</strong> @product.Price <br />
 				<strong>Product category:</strong> @product.ProductCategory<br />
 				<strong>Status:</strong> @product.Status <br />
+				<button @onclick="() => UpdateProduct(product.Id)">Edit</button>
+				<button @onclick="() => DeleteProduct(product.Id)">Delete</button>
 			</li>
 		}
 	}
@@ -45,6 +48,28 @@
 		if (response.IsSuccessStatusCode)
 		{
 			productsWithName = products.Where(c => c.ProductName == name).ToList();
+		}
+	}
+	private async Task UpdateProduct(int productId)
+	{
+		NavigationManager.NavigateTo($"/edit-product/{productId}");
+	}
+	private async Task DeleteProduct(int productId)
+	{
+		var response = await Http.DeleteAsync($"api/products/{productId}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			var product = products.FirstOrDefault(c => c.Id == productId);
+			if (product != null)
+			{
+				products.Remove(product);
+				productsWithName.Remove(product);
+			}
+			else
+			{
+				Console.WriteLine("Error deleting customer");
+			}
 		}
 	}
 }
