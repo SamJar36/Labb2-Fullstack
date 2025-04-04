@@ -1,0 +1,98 @@
+﻿@page "/all-orders"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+@if (customers != null && customers.Any())
+{
+	<div>
+		<label for="dropdown">Select user:</label>
+		<select id="dropdown" @onchange="OnSelectedCustomerChanged">
+			@foreach (var customer in customers)
+			{
+				<option value="@customer.Id">@customer.FirstName @customer.LastName</option>
+			}
+		</select>
+	</div>
+	@if (selectedCustomer != null)
+	{
+		<p>@selectedCustomer.FirstName @selectedCustomer.LastName</p>
+	}
+	else
+	{
+		<p>No customer selected</p>
+	}
+}
+@if (products == null)
+{
+	<p>Loading...</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id: </th>
+				<th>Product name: </th>
+				<th>Product description: </th>
+				<th>Price: </th>
+				<th>Product category: </th>
+				<th>Status: </th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var product in orderedProducts)
+			{
+				<tr>
+					<td>@product.Id</td>
+					<td>@product.ProductName</td>
+					<td>@product.ProductDescription</td>
+					<td>@product.Price</td>
+					<td>@product.ProductCategory</td>
+					<td>@product.Status</td>
+					<td>
+						<button @onclick="() => RemoveProduct(product.Id)">Remove</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	private List<Customer> customers;
+	private List<Product> orderedProducts;
+	private Customer selectedCustomer;
+	private List<Product> products;
+
+	protected override async Task OnInitializedAsync()
+	{
+		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+		selectedCustomer = customers[0];
+		orderedProducts = await Http.GetFromJsonAsync<List<Product>>($"api/customers/get-orders/{selectedCustomer.Id}");
+		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+	}
+    private void OnSelectedCustomerChanged(ChangeEventArgs e)
+    {
+        var selectedCustomerId = Guid.Parse(e.Value.ToString());
+        selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
+    }
+	private async Task RemoveProduct(int productId)
+	{
+		var response = await Http.DeleteAsync($"api/customers/orders/{productId}");
+
+		if (response.IsSuccessStatusCode)
+		{
+			var product = orderedProducts.FirstOrDefault(c => c.Id == productId);
+			if (product != null)
+			{
+				orderedProducts.Remove(product);
+			}
+			else
+			{
+				Console.WriteLine("Error deleting customer");
+			}
+		}
+	}
+}

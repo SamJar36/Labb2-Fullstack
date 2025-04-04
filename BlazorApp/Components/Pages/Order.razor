@@ -1,0 +1,101 @@
+﻿@page "/order"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+@if (customers != null && customers.Any())
+{
+    <div>
+        <label for="dropdown">Select user:</label>
+        <select id="dropdown" @onchange="OnSelectedCustomerChanged">
+            @foreach (var customer in customers)
+            {
+                <option value="@customer.Id">@customer.FirstName @customer.LastName</option>
+            }
+        </select>
+    </div>
+    @if (selectedCustomer != null)
+    {
+        <p>@selectedCustomer.FirstName @selectedCustomer.LastName</p>
+    }
+    else
+    {
+        <p>No customer selected</p>
+    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id: </th>
+                <th>Product name: </th>
+                <th>Product description: </th>
+                <th>Price: </th>
+                <th>Product category: </th>
+                <th>Status: </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.ProductDescription</td>
+                    <td>@product.Price</td>
+                    <td>@product.ProductCategory</td>
+                    <td>@product.Status</td>
+                    <td>
+                        @if (product.Status == "in stock" || product.Status == "In stock" || product.Status == "In Stock")
+                        {
+                            <button @onclick="() => BuyProduct(product.Id)">Buy</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private List<Customer> customers;
+    private List<Product> products;
+    private Customer? selectedCustomer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+        products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+        selectedCustomer = customers[0];
+    }
+
+    private async Task BuyProduct(int productId)
+    {
+        // Assuming you have a way to get the current customer's ID
+        Guid customerId = selectedCustomer.Id;
+
+        // Create a new product instance or fetch it from the database
+        var product = await _context.Products.FindAsync(productId);
+        if (product == null)
+        {
+            // Handle the case where the product is not found
+            throw new Exception("Product not found");
+        }
+
+        // Call the AddOrderAsync method to add the product to the customer's orders
+        await AddOrderAsync(customerId, product);
+
+        // Optionally, you can add some logic to update the UI or notify the user
+        // For example:
+        // NotifyUser("Product added to your orders successfully");
+    }
+
+    private void OnSelectedCustomerChanged(ChangeEventArgs e)
+    {
+        var selectedCustomerId = Guid.Parse(e.Value.ToString());
+        selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
+    }
+}

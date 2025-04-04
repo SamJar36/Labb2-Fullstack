@@ -14,5 +14,6 @@ namespace Shared
         public decimal Price { get; set; }
         public string ProductCategory { get; set; }
         public string Status { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

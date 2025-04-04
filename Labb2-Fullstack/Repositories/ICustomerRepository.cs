@@ -10,5 +10,10 @@ namespace Labb2_REST_API.Repositories
 		Task<Customer> FindCustomerByEmailAsync(string email);
 		Task<Customer> UpdateCustomerAsync(Guid id, Customer customer);
 		Task<bool> DeleteCustomerAsync(Guid id);
+
+		// Orders
+		Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid id);
+		Task<bool> RemoveOrderAsync(Guid id);
+		Task<Product> AddOrderAsync(Guid id, Product product);
 	}
 }

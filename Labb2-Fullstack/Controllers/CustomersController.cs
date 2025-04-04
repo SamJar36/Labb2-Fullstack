@@ -33,7 +33,7 @@ namespace Labb2_REST_API.Controllers
             {
                 return NotFound();
             }
-            return Ok(new { Message = "Customer deleted successfully."});
+            return Ok(new { Message = "Customer deleted successfully." });
         }
         [HttpGet]
         public async Task<IActionResult> GetAll()
@@ -41,6 +41,7 @@ namespace Labb2_REST_API.Controllers
             var customers = await _repository.GetAllCustomersAsync();
             return Ok(customers);
         }
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(Guid id)
         {
@@ -87,5 +88,40 @@ namespace Labb2_REST_API.Controllers
 			return Ok(new { 
                 Message = "Customer updated successfully.", Customer = updatedCustomer });
 		}
-	}
+
+        // ----------------- Orders --------------------
+        [HttpGet("orders/{id}")]
+        public async Task<IActionResult> GetAllOrders(Guid id)
+        {
+            var products = await _repository.GetAllOrderedProductsAsync(id);
+            return Ok(products);
+        }
+        [HttpDelete("orders/{id}")]
+        public async Task<IActionResult> DeleteOrder(Guid id)
+        {
+            var success = await _repository.RemoveOrderAsync(id);
+            if (!success)
+            {
+                return NotFound();
+            }
+            return Ok(new { Message = "Order removed successfully." });
+        }
+        [HttpPost("orders/{customerId}")]
+        public async Task<IActionResult> AddOrder(Guid customerId, [FromBody] Product product)
+        {
+            if (product == null)
+            {
+                return BadRequest("Product cannot be null");
+            }
+            try
+            {
+                var addedProduct = await _repository.AddOrderAsync(customerId, product);
+                return Ok(addedProduct);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+    }
 }
