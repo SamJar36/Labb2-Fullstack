@@ -19,7 +19,6 @@ public partial class FullstackContext : DbContext
 
     public virtual DbSet<Product> Products { get; set; }
 
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Initial Catalog=fullstack;Integrated Security=True;Trust Server Certificate=True;Server SPN=localhost");
@@ -38,6 +37,25 @@ public partial class FullstackContext : DbContext
             entity.Property(e => e.FirstName).HasMaxLength(100);
             entity.Property(e => e.LastName).HasMaxLength(100);
             entity.Property(e => e.PhoneNumber).HasMaxLength(15);
+
+            entity.HasMany(d => d.Products).WithMany(p => p.Customers)
+                .UsingEntity<Dictionary<string, object>>(
+                    "CustomerProduct",
+                    r => r.HasOne<Product>().WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK__CustomerP__Produ__48CFD27E"),
+                    l => l.HasOne<Customer>().WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .HasConstraintName("FK__CustomerP__Custo__47DBAE45"),
+                    j =>
+                    {
+                        j.HasKey("CustomerId", "ProductId").HasName("PK__Customer__6FEEA8D6E873D2E0");
+                        j.ToTable("CustomerProducts");
+                        j.IndexerProperty<Guid>("CustomerId").HasColumnName("CustomerID");
+                        j.IndexerProperty<int>("ProductId").HasColumnName("ProductID");
+                    });
         });
 
         modelBuilder.Entity<Product>(entity =>

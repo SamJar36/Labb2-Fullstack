@@ -15,6 +15,7 @@ namespace Labb2_REST_API.Controllers
 		{
 			_repository = repository;
 		}
+		[HttpPost]
         public async Task<IActionResult> CreateProduct([FromBody] Product product)
         {
             if (product == null)

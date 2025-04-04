@@ -5,7 +5,7 @@ namespace Labb2_REST_API.Models;
 
 public partial class Product
 {
-    public int Id { get; set; }
+    public int Id { get; private set; }
 
     public string ProductName { get; set; } = null!;
 
@@ -16,4 +16,6 @@ public partial class Product
     public string ProductCategory { get; set; } = null!;
 
     public string Status { get; set; } = null!;
+
+    public virtual ICollection<Customer> Customers { get; private set; } = new List<Customer>();
 }

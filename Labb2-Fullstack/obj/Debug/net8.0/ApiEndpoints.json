@@ -98,7 +98,7 @@
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/products",
-    "HttpMethod": "",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
