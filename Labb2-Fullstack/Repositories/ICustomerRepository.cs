@@ -13,7 +13,7 @@ namespace Labb2_REST_API.Repositories
 
 		// Orders
 		Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid id);
-		Task<bool> RemoveOrderAsync(Guid id);
+		Task<bool> RemoveOrderAsync(Guid customerId, int productId);
 		Task<Product> AddOrderAsync(Guid id, Product product);
 	}
 }

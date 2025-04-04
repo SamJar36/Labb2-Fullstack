@@ -70,10 +70,28 @@ namespace Labb2_REST_API.Repositories
                 .OrderBy(p => p.ProductName)
                 .ToListAsync();
         }
-        public async Task<bool> RemoveOrderAsync(Guid id)
-		{
-			return false;
-		}
+        public async Task<bool> RemoveOrderAsync(Guid customerId, int productId)
+        {
+            var customer = await _context.Customers
+                .Include(c => c.Products)
+                .FirstOrDefaultAsync(c => c.Id == customerId);
+
+            if (customer == null)
+            {
+                return false;
+            }
+
+            var product = customer.Products.FirstOrDefault(p => p.Id == productId);
+
+            if (product == null)
+            {
+                return false;
+            }
+
+            customer.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return true;
+        }
         public async Task<Product> AddOrderAsync(Guid customerId, Product product)
 		{
             var customer = await _context.Customers

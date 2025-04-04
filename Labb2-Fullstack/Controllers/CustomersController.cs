@@ -89,6 +89,7 @@ namespace Labb2_REST_API.Controllers
                 Message = "Customer updated successfully.", Customer = updatedCustomer });
 		}
 
+
         // ----------------- Orders --------------------
         [HttpGet("orders/{id}")]
         public async Task<IActionResult> GetAllOrders(Guid id)
@@ -96,10 +97,10 @@ namespace Labb2_REST_API.Controllers
             var products = await _repository.GetAllOrderedProductsAsync(id);
             return Ok(products);
         }
-        [HttpDelete("orders/{id}")]
-        public async Task<IActionResult> DeleteOrder(Guid id)
+        [HttpDelete("orders/{customerId}/{productId}")]
+        public async Task<IActionResult> DeleteOrder(Guid customerId, int productId)
         {
-            var success = await _repository.RemoveOrderAsync(id);
+            var success = await _repository.RemoveOrderAsync(customerId, productId);
             if (!success)
             {
                 return NotFound();

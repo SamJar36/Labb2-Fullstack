@@ -64,6 +64,7 @@ else
     private List<Customer> customers;
     private List<Product> products;
     private Customer? selectedCustomer;
+    private Product productWithId;
 
     protected override async Task OnInitializedAsync()
     {
@@ -74,23 +75,21 @@ else
 
     private async Task BuyProduct(int productId)
     {
-        // Assuming you have a way to get the current customer's ID
-        Guid customerId = selectedCustomer.Id;
+        // Guid customerId = selectedCustomer.Id;
 
-        // Create a new product instance or fetch it from the database
-        var product = await _context.Products.FindAsync(productId);
-        if (product == null)
-        {
-            // Handle the case where the product is not found
-            throw new Exception("Product not found");
-        }
+        // var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
 
-        // Call the AddOrderAsync method to add the product to the customer's orders
-        await AddOrderAsync(customerId, product);
+        // if (response.IsSuccessStatusCode)
+        // {
+        //     var product = products.FirstOrDefault(c => c.Id == productId);
+        //     if (product != null)
+        //     {
+        //         productWithId = product;
+        //     }
 
-        // Optionally, you can add some logic to update the UI or notify the user
-        // For example:
-        // NotifyUser("Product added to your orders successfully");
+        // }
+        // response = await Http.PostAsJsonAsync("api/customers/orders", customerId, productWithId);
+        
     }
 
     private void OnSelectedCustomerChanged(ChangeEventArgs e)

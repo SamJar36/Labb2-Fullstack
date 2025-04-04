@@ -1,8 +1,9 @@
-﻿@page "/all-orders"
+﻿@page "/shopping-cart"
 @rendermode InteractiveServer
 @using Shared
 @inject HttpClient Http
 
+<h3>Shopping Cart</h3>
 @if (customers != null && customers.Any())
 {
 	<div>
@@ -50,7 +51,6 @@ else
 					<td>@product.ProductDescription</td>
 					<td>@product.Price</td>
 					<td>@product.ProductCategory</td>
-					<td>@product.Status</td>
 					<td>
 						<button @onclick="() => RemoveProduct(product.Id)">Remove</button>
 					</td>
@@ -70,17 +70,25 @@ else
 	{
 		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
 		selectedCustomer = customers[0];
-		orderedProducts = await Http.GetFromJsonAsync<List<Product>>($"api/customers/get-orders/{selectedCustomer.Id}");
+		orderedProducts = await Http.GetFromJsonAsync<List<Product>>($"api/customers/orders/{selectedCustomer.Id}");
 		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+
+		foreach (var product in products)
+		{
+			orderedProducts.Add(product);
+			orderedProducts.Add(product);
+
+		}
 	}
-    private void OnSelectedCustomerChanged(ChangeEventArgs e)
-    {
-        var selectedCustomerId = Guid.Parse(e.Value.ToString());
-        selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
-    }
+	private void OnSelectedCustomerChanged(ChangeEventArgs e)
+	{
+		var selectedCustomerId = Guid.Parse(e.Value.ToString());
+		selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
+	}
 	private async Task RemoveProduct(int productId)
 	{
-		var response = await Http.DeleteAsync($"api/customers/orders/{productId}");
+		Guid customerId = selectedCustomer.Id;
+		var response = await Http.DeleteAsync($"api/customers/orders/{customerId}/{productId}");
 
 		if (response.IsSuccessStatusCode)
 		{
