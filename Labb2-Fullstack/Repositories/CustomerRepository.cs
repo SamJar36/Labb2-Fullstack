@@ -70,7 +70,7 @@ namespace Labb2_REST_API.Repositories
                 .OrderBy(p => p.ProductName)
                 .ToListAsync();
         }
-        public async Task<bool> RemoveOrderAsync(Guid customerId, int productId)
+        public async Task<bool> RemoveOrderAsync(Guid customerId, int productIndex)
         {
             var customer = await _context.Customers
                 .Include(c => c.Products)
@@ -81,7 +81,7 @@ namespace Labb2_REST_API.Repositories
                 return false;
             }
 
-            var product = customer.Products.FirstOrDefault(p => p.Id == productId);
+            var product = customer.Products.ElementAtOrDefault(productIndex);
 
             if (product == null)
             {

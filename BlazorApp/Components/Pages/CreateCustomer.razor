@@ -44,7 +44,7 @@
 
 @code {
     [SupplyParameterFromForm]
-    private Customer createdCustomer { get; set; } = new Customer();
+    private Customer createdCustomer { get; set; } = new Customer { Products = new List<Product>() };
     private List<Customer> customers { get; set; }
     private bool isSuccess;
 
@@ -60,7 +60,7 @@
         {
             isSuccess = true;
             customers.Add(createdCustomer);
-            createdCustomer = new Customer();
+            createdCustomer = new Customer { Products = new List<Product>() };
         }
         else
         {

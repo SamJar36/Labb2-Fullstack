@@ -66,30 +66,40 @@ else
     private Customer? selectedCustomer;
     private Product productWithId;
 
+    private Guid customerId { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
         products = await Http.GetFromJsonAsync<List<Product>>("api/products");
-        selectedCustomer = customers[0];
+        selectedCustomer = customers?[0];
     }
 
     private async Task BuyProduct(int productId)
     {
-        // Guid customerId = selectedCustomer.Id;
+        customerId = selectedCustomer.Id;
 
-        // var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
+        var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
 
-        // if (response.IsSuccessStatusCode)
-        // {
-        //     var product = products.FirstOrDefault(c => c.Id == productId);
-        //     if (product != null)
-        //     {
-        //         productWithId = product;
-        //     }
+        if (response.IsSuccessStatusCode)
+        {
+            var product = products.FirstOrDefault(c => c.Id == productId);
+            if (product != null)
+            {
+                productWithId = product;
+            }
 
-        // }
-        // response = await Http.PostAsJsonAsync("api/customers/orders", customerId, productWithId);
-        
+        }
+        var response2 = await Http.PostAsJsonAsync($"api/customers/orders/{customerId}", productWithId);
+
+        if (response2.IsSuccessStatusCode)
+        {
+            int index = customers.FindIndex(c => c.Id == customerId);
+            if (index != -1)
+            {
+                customers[index].Products.Add(productWithId);
+            }
+        }
     }
 
     private void OnSelectedCustomerChanged(ChangeEventArgs e)

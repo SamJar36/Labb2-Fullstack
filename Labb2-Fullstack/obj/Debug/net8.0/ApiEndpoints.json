@@ -102,7 +102,7 @@
   {
     "ContainingType": "Labb2_REST_API.Controllers.CustomersController",
     "Method": "DeleteOrder",
-    "RelativePath": "api/customers/orders/{customerId}/{productId}",
+    "RelativePath": "api/customers/orders/{customerId}/{productIndex}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -113,7 +113,7 @@
         "IsRequired": true
       },
       {
-        "Name": "productId",
+        "Name": "productIndex",
         "Type": "System.Int32",
         "IsRequired": true
       }

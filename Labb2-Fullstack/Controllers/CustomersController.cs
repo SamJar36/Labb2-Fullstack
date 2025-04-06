@@ -97,10 +97,10 @@ namespace Labb2_REST_API.Controllers
             var products = await _repository.GetAllOrderedProductsAsync(id);
             return Ok(products);
         }
-        [HttpDelete("orders/{customerId}/{productId}")]
-        public async Task<IActionResult> DeleteOrder(Guid customerId, int productId)
+        [HttpDelete("orders/{customerId}/{productIndex}")]
+        public async Task<IActionResult> DeleteOrder(Guid customerId, int productIndex)
         {
-            var success = await _repository.RemoveOrderAsync(customerId, productId);
+            var success = await _repository.RemoveOrderAsync(customerId, productIndex);
             if (!success)
             {
                 return NotFound();
@@ -114,15 +114,8 @@ namespace Labb2_REST_API.Controllers
             {
                 return BadRequest("Product cannot be null");
             }
-            try
-            {
-                var addedProduct = await _repository.AddOrderAsync(customerId, product);
-                return Ok(addedProduct);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            var addedProduct = await _repository.AddOrderAsync(customerId, product);
+            return Ok(addedProduct);
         }
     }
 }

@@ -175,7 +175,7 @@
         }
       }
     },
-    "/api/customers/orders/{customerId}/{productId}": {
+    "/api/customers/orders/{customerId}/{productIndex}": {
       "delete": {
         "tags": [
           "Customers"
@@ -191,7 +191,7 @@
             }
           },
           {
-            "name": "productId",
+            "name": "productIndex",
             "in": "path",
             "required": true,
             "schema": {
@@ -494,13 +494,6 @@
           },
           "status": {
             "type": "string",
-            "nullable": true
-          },
-          "customers": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Customer"
-            },
             "nullable": true
           }
         },
