@@ -44,13 +44,13 @@
 
 @code {
     [SupplyParameterFromForm]
-    private Customer createdCustomer { get; set; } = new Customer { Products = new List<Product>() };
-    private List<Customer> customers { get; set; }
+    private CreateCustomerRequest createdCustomer { get; set; } = new CreateCustomerRequest();
+    private List<CreateCustomerRequest> customers { get; set; }
     private bool isSuccess;
 
     protected override async Task OnInitializedAsync()
     {
-        customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
+        customers = await Http.GetFromJsonAsync<List<CreateCustomerRequest>>("api/customers");
     }
 
     private async Task Submit()
@@ -60,7 +60,7 @@
         {
             isSuccess = true;
             customers.Add(createdCustomer);
-            createdCustomer = new Customer { Products = new List<Product>() };
+            createdCustomer = new CreateCustomerRequest();
         }
         else
         {

@@ -172,3 +172,5 @@ C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Lab
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets\msbuild.Labb2-REST API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\saman\source\repos\Labb2-Fullstack\Labb2-Fullstack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\saman\Source\Repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Shared.dll
+C:\Users\saman\Source\Repos\Labb2-Fullstack\Labb2-Fullstack\bin\Debug\net8.0\Shared.pdb

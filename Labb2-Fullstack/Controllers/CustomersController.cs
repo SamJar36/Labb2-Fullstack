@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Labb2_REST_API.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Labb2_REST_API.Models;
 using Labb2_REST_API.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Labb2_REST_API.Controllers
 {
@@ -97,10 +96,10 @@ namespace Labb2_REST_API.Controllers
             var products = await _repository.GetAllOrderedProductsAsync(id);
             return Ok(products);
         }
-        [HttpDelete("orders/{customerId}/{productIndex}")]
-        public async Task<IActionResult> DeleteOrder(Guid customerId, int productIndex)
+        [HttpDelete("orders/{customerId}/{productId}")]
+        public async Task<IActionResult> DeleteOrder(Guid customerId, int productId)
         {
-            var success = await _repository.RemoveOrderAsync(customerId, productIndex);
+            var success = await _repository.RemoveOrderAsync(customerId, productId);
             if (!success)
             {
                 return NotFound();

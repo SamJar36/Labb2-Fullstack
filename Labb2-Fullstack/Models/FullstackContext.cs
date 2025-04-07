@@ -44,11 +44,11 @@ public partial class FullstackContext : DbContext
                     r => r.HasOne<Product>().WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__CustomerP__Produ__48CFD27E"),
+                        .HasConstraintName("FK_CustomerProduct_Product"),
                     l => l.HasOne<Customer>().WithMany()
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__CustomerP__Custo__47DBAE45"),
+                        .HasConstraintName("FK_CustomerProduct_Customer"),
                     j =>
                     {
                         j.HasKey("CustomerId", "ProductId").HasName("PK__Customer__6FEEA8D6E873D2E0");

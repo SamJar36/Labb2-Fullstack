@@ -53,10 +53,11 @@ else
 					<td>@product.Price</td>
 					<td>@product.ProductCategory</td>
 					<td>
-						<button @onclick="() => RemoveProduct(index)">Remove</button>
+						<button @onclick="() => RemoveProduct(product.Id)">Remove</button>
 					</td>
 				</tr>
 			}
+			
 		</tbody>
 	</table>
 }
@@ -71,28 +72,21 @@ else
 	{
 		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
 		selectedCustomer = customers[0];
-		// orderedProducts = await Http.GetFromJsonAsync<List<Product>>($"api/customers/orders/{selectedCustomer.Id}");
 		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
-
-		// foreach (var product in products)
-		// {
-		// 	customers[0].Products.Add(product);
-
-		// }
 	}
 	private void OnSelectedCustomerChanged(ChangeEventArgs e)
 	{
 		var selectedCustomerId = Guid.Parse(e.Value.ToString());
 		selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
 	}
-	private async Task RemoveProduct(int productIndex)
+	private async Task RemoveProduct(int productId)
 	{
 		Guid customerId = selectedCustomer.Id;
-		var response = await Http.DeleteAsync($"api/customers/orders/{customerId}/{productIndex}");
+		var response = await Http.DeleteAsync($"api/customers/orders/{customerId}/{productId}");
 
 		if (response.IsSuccessStatusCode)
 		{
-			var product = selectedCustomer.Products.FirstOrDefault(c => c.Id == productIndex);
+			var product = selectedCustomer.Products.FirstOrDefault(c => c.Id == productId);
 			if (product != null)
 			{
 				selectedCustomer.Products.Remove(product);

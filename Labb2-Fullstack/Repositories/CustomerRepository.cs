@@ -23,9 +23,10 @@ namespace Labb2_REST_API.Repositories
 		{
 			return await _context.Customers.FindAsync(id);
 		}
+
 		public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
 		{
-			return await _context.Customers.ToListAsync();
+			return await _context.Customers.Include("Products").ToListAsync();
 		}
         
         public async Task<Customer> FindCustomerByEmailAsync(string email)
@@ -70,7 +71,7 @@ namespace Labb2_REST_API.Repositories
                 .OrderBy(p => p.ProductName)
                 .ToListAsync();
         }
-        public async Task<bool> RemoveOrderAsync(Guid customerId, int productIndex)
+        public async Task<bool> RemoveOrderAsync(Guid customerId, int productId)
         {
             var customer = await _context.Customers
                 .Include(c => c.Products)
@@ -81,7 +82,7 @@ namespace Labb2_REST_API.Repositories
                 return false;
             }
 
-            var product = customer.Products.ElementAtOrDefault(productIndex);
+            var product = customer.Products.FirstOrDefault(p => p.Id == productId);
 
             if (product == null)
             {
