@@ -15,14 +15,6 @@
 			}
 		</select>
 	</div>
-	@if (selectedCustomer != null)
-	{
-		<p>@selectedCustomer.FirstName @selectedCustomer.LastName</p>
-	}
-	else
-	{
-		<p>No customer selected</p>
-	}
 }
 @if (products == null)
 {
@@ -64,7 +56,6 @@ else
 
 @code {
 	private List<Customer> customers;
-	// private List<Product> orderedProducts;
 	private Customer selectedCustomer;
 	private List<Product> products;
 

@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +117,6 @@
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -148,84 +148,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAcwGIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:19:25.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllOrders.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwFYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T15:01:26.513Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:12:18.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T11:29:21.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CreateCustomer.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwDkAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAawD4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-31T12:40:03.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs*",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:12:18.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AllOrders.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\AllOrders.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\AllOrders.razor",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAqwFEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T15:01:26.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs*",
-              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\CustomersController.cs*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAcwGIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:19:25.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Product.cs",
-              "RelativeDocumentMoniker": "Shared\\Product.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Product.cs",
-              "RelativeToolTip": "Shared\\Product.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:21:59.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
@@ -233,12 +226,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAqwCIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:39:50.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T12:39:50.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Customers.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Customers.razor",
@@ -246,12 +238,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Customers.razor",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T16:32:29.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:32:29.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
@@ -259,12 +250,11 @@
               "RelativeToolTip": "BlazorApp\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T12:15:46.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T12:15:46.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Product.cs",
@@ -272,25 +262,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Models\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:37:20.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T10:37:20.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FullstackContext.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\FullstackContext.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\FullstackContext.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\FullstackContext.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Models\\FullstackContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwDcAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:33:45.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Customer.cs",
               "RelativeDocumentMoniker": "Shared\\Customer.cs",
@@ -298,12 +274,11 @@
               "RelativeToolTip": "Shared\\Customer.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA9wBEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:32:23.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:32:23.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Customer.cs",
@@ -311,12 +286,36 @@
               "RelativeToolTip": "Labb2-Fullstack\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:35:42.306Z",
+              "WhenOpened": "2025-04-04T10:35:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FullstackContext.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\FullstackContext.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\FullstackContext.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\FullstackContext.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Models\\FullstackContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:33:45.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Product.cs",
+              "RelativeDocumentMoniker": "Shared\\Product.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Product.cs",
+              "RelativeToolTip": "Shared\\Product.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:21:59.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -324,12 +323,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAPsAAAAAAAAAAAAAAAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-07T16:24:50.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T16:24:50.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Program.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Program.cs",
@@ -337,12 +335,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:10:13.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T17:10:13.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SearchProductId.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductId.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
@@ -350,12 +347,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
               "ViewState": "AgIAABsAAAAAAAAAAIBJwC4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T17:03:41.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T17:03:41.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SearchProductName.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductName.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchProductName.razor",
@@ -363,12 +359,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\SearchProductName.razor",
               "ViewState": "AgIAACEAAAAAAAAAAIBJwDgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T15:23:40.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T15:23:40.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
@@ -376,12 +371,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:10:05.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T12:10:05.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Order.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Order.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Order.razor",
@@ -389,12 +383,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Order.razor",
               "ViewState": "AgIAAEoAAAAAAAAAAAAewFwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T11:21:00.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T11:21:00.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
@@ -402,12 +395,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAACEAAAAAAAAAAIBJwDgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T15:34:42.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:34:42.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CreateProduct.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateProduct.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
@@ -415,12 +407,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
               "ViewState": "AgIAACQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T09:09:37.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T09:09:37.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SearchByEmail.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchByEmail.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchByEmail.razor",
@@ -428,12 +419,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\SearchByEmail.razor",
               "ViewState": "AgIAACcAAAAAAAAAAIBJwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T09:26:30.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:26:30.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EditProduct.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\EditProduct.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\EditProduct.razor",
@@ -441,12 +431,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\EditProduct.razor",
               "ViewState": "AgIAACQAAAAAAAAAAIBJwEQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T08:38:20.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T08:38:20.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Products.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Products.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Products.razor",
@@ -454,12 +443,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Products.razor",
               "ViewState": "AgIAADAAAAAAAAAAAADwvzgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T14:20:59.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T14:20:59.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ProductRepository.cs",
@@ -467,12 +455,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAIBQwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:59:03.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:59:03.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "EditCustomer.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\EditCustomer.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\EditCustomer.razor",
@@ -480,12 +467,11 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\EditCustomer.razor",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T17:21:57.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T17:21:57.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IProductRepository.cs",
@@ -493,12 +479,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:56:57.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:56:57.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -506,12 +491,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAAQTAAAAAAAAAAAswBUTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-04T11:29:34.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T11:29:34.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\appsettings.json",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\appsettings.json",
@@ -519,21 +503,7 @@
               "RelativeToolTip": "Labb2-Fullstack\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T17:11:38.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:29:21.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T17:11:38.469Z"
             },
             {
               "$type": "Document",
@@ -545,8 +515,7 @@
               "RelativeToolTip": "BlazorApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:29:14.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T11:29:14.007Z"
             },
             {
               "$type": "Document",
@@ -558,8 +527,7 @@
               "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T12:33:31.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T12:33:31.664Z"
             },
             {
               "$type": "Document",
@@ -571,8 +539,7 @@
               "RelativeToolTip": "Labb2-Fullstack\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T15:40:43.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:40:43.873Z"
             },
             {
               "$type": "Document",
@@ -584,8 +551,7 @@
               "RelativeToolTip": "Labb2-Fullstack\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T15:41:01.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T15:41:01.817Z"
             },
             {
               "$type": "Document",
@@ -597,21 +563,19 @@
               "RelativeToolTip": "BlazorApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T16:05:28.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:05:28.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "Labb2-REST API.csproj",
-              "DocumentMoniker": "C:\\Users\\saman\\Source\\Repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Labb2-REST API.csproj",
-              "ToolTip": "C:\\Users\\saman\\Source\\Repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-REST API.csproj",
               "RelativeToolTip": "Labb2-Fullstack\\Labb2-REST API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T17:11:48.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T17:11:48.721Z"
             }
           ]
         }
