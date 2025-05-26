@@ -16,7 +16,7 @@
 		</select>
 	</div>
 }
-@if (products == null)
+@if (shoppingCartItems == null)
 {
 	<p>Loading...</p>
 }
@@ -27,29 +27,24 @@ else
 			<tr>
 				<th>Id: </th>
 				<th>Product name: </th>
-				<th>Product description: </th>
+				<th>Quantity: </th>
 				<th>Price: </th>
-				<th>Product category: </th>
-				<th></th>
 			</tr>
 		</thead>
 		<tbody>
-			@for (int i = 0; i < selectedCustomer.Products.Count; i++)
+			@for (int i = 0; i < shoppingCartItems.Count; i++)
 			{
-				var index = i;
-				var product = selectedCustomer.Products[i];
+				var item = shoppingCartItems[i];
 				<tr>
-					<td>@product.Id</td>
-					<td>@product.ProductName</td>
-					<td>@product.ProductDescription</td>
-					<td>@product.Price</td>
-					<td>@product.ProductCategory</td>
+					<td>@item.Id</td>
+					<td>@item.Product.ProductName</td>
+					<td>@item.Quantity</td>
+					<td>@item.Price</td>
 					<td>
-						<button @onclick="() => RemoveProduct(product.Id)">Remove</button>
+						<button @onclick="() => RemoveProduct(item.Id)">Remove</button>
 					</td>
 				</tr>
 			}
-			
 		</tbody>
 	</table>
 }
@@ -57,18 +52,21 @@ else
 @code {
 	private List<Customer> customers;
 	private Customer selectedCustomer;
-	private List<Product> products;
+	private List<ShoppingCartItem> shoppingCartItems;
 
 	protected override async Task OnInitializedAsync()
 	{
 		customers = await Http.GetFromJsonAsync<List<Customer>>("api/customers");
 		selectedCustomer = customers[0];
-		products = await Http.GetFromJsonAsync<List<Product>>("api/products");
+
+		shoppingCartItems = await Http.GetFromJsonAsync<List<ShoppingCartItem>>($"api/shoppingcart/{selectedCustomer.Id}");
 	}
-	private void OnSelectedCustomerChanged(ChangeEventArgs e)
+	private async Task OnSelectedCustomerChanged(ChangeEventArgs e)
 	{
 		var selectedCustomerId = Guid.Parse(e.Value.ToString());
 		selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
+
+		shoppingCartItems = await Http.GetFromJsonAsync<List<ShoppingCartItem>>($"api/shoppingcart/{selectedCustomer.Id}");
 	}
 	private async Task RemoveProduct(int productId)
 	{

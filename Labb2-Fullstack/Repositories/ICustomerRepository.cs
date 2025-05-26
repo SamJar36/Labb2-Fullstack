@@ -12,8 +12,8 @@ namespace Labb2_REST_API.Repositories
 		Task<bool> DeleteCustomerAsync(Guid id);
 
 		// Orders
-		Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid id);
-		Task<bool> RemoveOrderAsync(Guid customerId, int productId);
-		Task<Product> AddOrderAsync(Guid id, Product product);
+		//Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid id);
+		//Task<bool> RemoveOrderAsync(Guid customerId, int productId);
+		//Task<Product> AddOrderAsync(Guid id, Product product);
 	}
 }

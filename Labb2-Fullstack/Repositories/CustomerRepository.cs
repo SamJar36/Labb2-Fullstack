@@ -63,51 +63,51 @@ namespace Labb2_REST_API.Repositories
 		}
 
 		// ----------------- Orders --------------------
-        public async Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid customerId)
-        {
-            return await _context.Customers
-                .Where(c => c.Id == customerId)
-                .SelectMany(c => c.Products)
-                .OrderBy(p => p.ProductName)
-                .ToListAsync();
-        }
-        public async Task<bool> RemoveOrderAsync(Guid customerId, int productId)
-        {
-            var customer = await _context.Customers
-                .Include(c => c.Products)
-                .FirstOrDefaultAsync(c => c.Id == customerId);
+		//public async Task<IEnumerable<Product>> GetAllOrderedProductsAsync(Guid customerId)
+		//{
+		//	return await _context.Customers
+		//		.Where(c => c.Id == customerId)
+		//		.SelectMany(c => c.Products)
+		//		.OrderBy(p => p.ProductName)
+		//		.ToListAsync();
+		//}
+		//      public async Task<bool> RemoveOrderAsync(Guid customerId, int productId)
+		//      {
+		//          var customer = await _context.Customers
+		//              .Include(c => c.Products)
+		//              .FirstOrDefaultAsync(c => c.Id == customerId);
 
-            if (customer == null)
-            {
-                return false;
-            }
+		//          if (customer == null)
+		//          {
+		//              return false;
+		//          }
 
-            var product = customer.Products.FirstOrDefault(p => p.Id == productId);
+		//          var product = customer.Products.FirstOrDefault(p => p.Id == productId);
 
-            if (product == null)
-            {
-                return false;
-            }
+		//          if (product == null)
+		//          {
+		//              return false;
+		//          }
 
-            customer.Products.Remove(product);
-            await _context.SaveChangesAsync();
-            return true;
-        }
-        public async Task<Product> AddOrderAsync(Guid customerId, Product product)
-		{
-            var customer = await _context.Customers
-				.Include(c => c.Products)
-				.FirstOrDefaultAsync(c => c.Id == customerId);
+		//          customer.Products.Remove(product);
+		//          await _context.SaveChangesAsync();
+		//          return true;
+		//      }
+		//      public async Task<Product> AddOrderAsync(Guid customerId, Product product)
+		//{
+		//          var customer = await _context.Customers
+		//		.Include(c => c.Products)
+		//		.FirstOrDefaultAsync(c => c.Id == customerId);
 
-            if (customer == null)
-            {
-                throw new Exception("Customer not found");
-            }
+		//          if (customer == null)
+		//          {
+		//              throw new Exception("Customer not found");
+		//          }
 
-            customer.Products.Add(product);
-            await _context.SaveChangesAsync();
+		//          customer.Products.Add(product);
+		//          await _context.SaveChangesAsync();
 
-            return product;
-        }
-    }
+		//          return product;
+		//      }
+	}
 }

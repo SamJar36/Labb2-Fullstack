@@ -17,6 +17,4 @@ public partial class Product
     public string ProductCategory { get; set; } = null!;
 
     public string Status { get; set; } = null!;
-    [JsonIgnore]
-    public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 }

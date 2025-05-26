@@ -18,59 +18,52 @@ public partial class FullstackContext : DbContext
     public virtual DbSet<Customer> Customers { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Initial Catalog=fullstack;Integrated Security=True;Trust Server Certificate=True;Server SPN=localhost");
+    public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__CUSTOMER__3214EC078FAA8174");
+            entity.HasKey(c => c.Id);
 
-            entity.HasIndex(e => e.Email, "UQ__CUSTOMER__A9D105346AD955DF").IsUnique();
+            entity.Property(c => c.FirstName).IsRequired().HasMaxLength(100);
+            entity.Property(c => c.LastName).IsRequired().HasMaxLength(100);
+            entity.Property(c => c.Email).IsRequired().HasMaxLength(150);
+            entity.Property(c => c.PhoneNumber).IsRequired().HasMaxLength(20);
+            entity.Property(c => c.Address).IsRequired().HasMaxLength(250);
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.Address).HasMaxLength(100);
-            entity.Property(e => e.Email).HasMaxLength(100);
-            entity.Property(e => e.FirstName).HasMaxLength(100);
-            entity.Property(e => e.LastName).HasMaxLength(100);
-            entity.Property(e => e.PhoneNumber).HasMaxLength(15);
-
-            entity.HasMany(d => d.Products).WithMany(p => p.Customers)
-                .UsingEntity<Dictionary<string, object>>(
-                    "CustomerProduct",
-                    r => r.HasOne<Product>().WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_CustomerProduct_Product"),
-                    l => l.HasOne<Customer>().WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_CustomerProduct_Customer"),
-                    j =>
-                    {
-                        j.HasKey("CustomerId", "ProductId").HasName("PK__Customer__6FEEA8D6E873D2E0");
-                        j.ToTable("CustomerProducts");
-                        j.IndexerProperty<Guid>("CustomerId").HasColumnName("CustomerID");
-                        j.IndexerProperty<int>("ProductId").HasColumnName("ProductID");
-                    });
+            entity.HasMany(c => c.ShoppingCartItems)
+                  .WithOne(sci => sci.Customer)
+                  .HasForeignKey(sci => sci.CustomerId)
+                  .OnDelete(DeleteBehavior.Cascade);
         });
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Products__3214EC075B738280");
+            entity.HasKey(p => p.Id);
 
-            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.ProductCategory).HasMaxLength(100);
-            entity.Property(e => e.ProductDescription).HasMaxLength(100);
-            entity.Property(e => e.ProductName).HasMaxLength(100);
-            entity.Property(e => e.Status).HasMaxLength(12);
+            entity.Property(p => p.ProductName).IsRequired().HasMaxLength(100);
+            entity.Property(p => p.ProductDescription).IsRequired().HasMaxLength(200);
+            entity.Property(p => p.Price).IsRequired().HasColumnType("decimal(18,2)");
+            entity.Property(p => p.ProductCategory).IsRequired().HasMaxLength(100);
+            entity.Property(p => p.Status).IsRequired().HasMaxLength(10);
         });
 
-        OnModelCreatingPartial(modelBuilder);
-    }
+        modelBuilder.Entity<ShoppingCartItem>(entity =>
+        {
+            entity.HasKey(sci => sci.Id);
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+            entity.Property(sci => sci.Quantity).IsRequired();
+
+            entity.HasOne(sci => sci.Customer)
+                  .WithMany(c => c.ShoppingCartItems)
+                  .HasForeignKey(sci => sci.CustomerId)
+                  .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(sci => sci.Product)
+                  .WithMany() 
+                  .HasForeignKey(sci => sci.ProductId)
+                  .OnDelete(DeleteBehavior.Restrict); 
+        });
+    }
 }

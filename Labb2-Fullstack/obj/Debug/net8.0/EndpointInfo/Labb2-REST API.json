@@ -459,6 +459,13 @@
             "type": "string",
             "nullable": true
           },
+          "shoppingCartItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ShoppingCartItem"
+            },
+            "nullable": true
+          },
           "products": {
             "type": "array",
             "items": {
@@ -495,6 +502,39 @@
           "status": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ShoppingCartItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "customer": {
+            "$ref": "#/components/schemas/Customer"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "product": {
+            "$ref": "#/components/schemas/Product"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "price": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
           }
         },
         "additionalProperties": false
