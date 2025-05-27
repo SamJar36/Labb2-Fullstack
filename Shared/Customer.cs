@@ -1,4 +1,6 @@
-﻿namespace Shared
+﻿using System.Text.Json.Serialization;
+
+namespace Shared
 {
 	public class Customer
 	{
@@ -14,6 +16,7 @@
 
         public string Address { get; set; } = null!;
         public ICollection<ShoppingCartItem> ShoppingCartItems { get; set; } = new List<ShoppingCartItem>();
+        [JsonIgnore]
         public ICollection<Order> Orders { get; set; } = new List<Order>();
     }
     public class CreateCustomerRequest

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Labb2_REST_API.Models;
 
@@ -18,5 +19,6 @@ public class Customer
     public string Address { get; set; } = null!;
 
     public ICollection<ShoppingCartItem> ShoppingCartItems { get; set; } = new List<ShoppingCartItem>();
+    [JsonIgnore]
     public ICollection<Order> Orders { get; set; } = new List<Order>();
 }

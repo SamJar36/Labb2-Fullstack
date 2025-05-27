@@ -3,84 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\shoppingcart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Migrations\\20250527164009_AddTotalPriceCalculaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Labb2-Fullstack\\Migrations\\20250527164009_AddTotalPriceCalculaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\allorders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\orderproducts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\searchproductid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\searchproductid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\shared\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182755D-1006-45B1-A0EE-1ED143171835}|Shared\\Shared.csproj|solutionrelative:shared\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,32 +135,12 @@
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\customers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -133,18 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\createcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\searchproductid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\searchproductid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -185,10 +189,6 @@
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\editcustomer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94716B27-63EC-4FDB-AA5B-71A4B15A3056}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -219,6 +219,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\migrations\\20250527122241_removedpartialfrommodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\migrations\\20250527122241_removedpartialfrommodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|c:\\users\\saman\\source\\repos\\labb2-fullstack\\labb2-fullstack\\migrations\\20250527164009_addtotalpricecalculaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B064CB69-5AAB-4281-B26D-3F8CBD61A83B}|Labb2-Fullstack\\Labb2-REST API.csproj|solutionrelative:labb2-fullstack\\migrations\\20250527164009_addtotalpricecalculaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -228,37 +232,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwDEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T15:42:56.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Order.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:12:41.34Z",
+              "WhenOpened": "2025-05-27T15:31:30.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShoppingCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:30:41.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:14:46.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:46:27.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IShoppingCartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:37:25.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:19:25.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwHUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:39:50.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShoppingCart.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\ShoppingCart.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\ShoppingCart.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\ShoppingCart.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\ShoppingCart.razor",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwHIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T15:01:26.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:38:26.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AllOrders.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\AllOrders.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAD4vzwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T18:27:17.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Product.cs",
               "RelativeDocumentMoniker": "Shared\\Product.cs",
@@ -277,124 +398,20 @@
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Product.cs",
               "RelativeToolTip": "Labb2-Fullstack\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T10:37:20.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Customer.cs",
-              "RelativeDocumentMoniker": "Shared\\Customer.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Customer.cs",
-              "RelativeToolTip": "Shared\\Customer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:32:23.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:35:42.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShoppingCart.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\ShoppingCart.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\ShoppingCart.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\ShoppingCart.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\ShoppingCart.razor",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T15:01:26.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Program.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Program.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Program.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:10:13.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:38:26.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Order.cs",
-              "RelativeDocumentMoniker": "Shared\\Order.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Order.cs",
-              "RelativeToolTip": "Shared\\Order.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:33:58.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwHUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:39:50.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:31:30.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "OrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\OrderProduct.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\OrderProduct.cs",
               "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\OrderProduct.cs",
               "RelativeToolTip": "Labb2-Fullstack\\Models\\OrderProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T15:16:40.761Z",
               "EditorCaption": ""
@@ -402,19 +419,187 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwFwAAAAAAAAAAAAAAA==",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Customer.cs",
+              "RelativeDocumentMoniker": "Shared\\Customer.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Customer.cs",
+              "RelativeToolTip": "Shared\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:19:25.751Z",
+              "WhenOpened": "2025-03-27T16:32:23.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Customer.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T10:35:42.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderProduct.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Shared\\OrderProduct.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\OrderProduct.cs",
+              "RelativeToolTip": "Shared\\OrderProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:34:30.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Order.cs",
+              "RelativeDocumentMoniker": "Shared\\Order.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\Order.cs",
+              "RelativeToolTip": "Shared\\Order.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:33:58.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Customers.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Customers.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Customers.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T16:32:29.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SearchProductId.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductId.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductId.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T17:03:41.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderProducts.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\OrderProducts.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\OrderProducts.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\OrderProducts.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\OrderProducts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T11:21:00.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:12:18.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateProduct.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateProduct.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateProduct.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T09:09:37.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\Order.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:12:41.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T15:34:42.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T11:29:14.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateCustomer.razor",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T12:40:03.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Program.cs",
+              "RelativeDocumentMoniker": "Labb2-Fullstack\\Program.cs",
+              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Program.cs",
+              "RelativeToolTip": "Labb2-Fullstack\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:10:13.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "Shared\\ShoppingCartItem.cs",
@@ -422,64 +607,11 @@
               "RelativeToolTip": "Shared\\ShoppingCartItem.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:12:37.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:12:37.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderProduct.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\OrderProduct.cs",
-              "RelativeDocumentMoniker": "Shared\\OrderProduct.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Shared\\OrderProduct.cs",
-              "RelativeToolTip": "Shared\\OrderProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:34:30.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwD4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:12:18.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ShoppingCartItem.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Models\\ShoppingCartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:30:41.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\ShoppingCartRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:46:27.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 55,
               "Title": "20250527164009_AddTotalPriceCalculaion.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Migrations\\20250527164009_AddTotalPriceCalculaion.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Migrations\\20250527164009_AddTotalPriceCalculaion.cs",
@@ -487,12 +619,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Migrations\\20250527164009_AddTotalPriceCalculaion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:40:09.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T16:40:09.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "20250527152930_AddOrderAndOrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Migrations\\20250527152930_AddOrderAndOrderProduct.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Migrations\\20250527152930_AddOrderAndOrderProduct.cs",
@@ -500,12 +631,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Migrations\\20250527152930_AddOrderAndOrderProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:29:30.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T15:29:30.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ProductRepository.cs",
@@ -517,19 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:14:46.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
@@ -537,12 +655,11 @@
               "RelativeToolTip": "Labb2-Fullstack\\Repositories\\ICustomerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T12:10:05.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T12:10:05.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "20250527152739_AddOrderAndOrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Migrations\\20250527152739_AddOrderAndOrderProduct.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Migrations\\20250527152739_AddOrderAndOrderProduct.cs",
@@ -554,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "FullstackContext.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Models\\FullstackContext.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Models\\FullstackContext.cs",
@@ -566,43 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
-              "RelativeToolTip": "Labb2-Fullstack\\Repositories\\IShoppingCartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T13:37:25.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Customers.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Customers.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Customers.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Customers.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T16:32:29.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Order.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Order.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Order.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Order.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Order.razor",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwEsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T11:21:00.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Repositories\\IProductRepository.cs",
@@ -614,19 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CreateProduct.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateProduct.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateProduct.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateProduct.razor",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T09:09:37.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "EditProduct.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\EditProduct.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\EditProduct.razor",
@@ -638,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
@@ -662,43 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T15:34:42.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CreateCustomer.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\CreateCustomer.razor",
-              "ViewState": "AgIAACsAAAAAAAAAAAAawD4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T12:40:03.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SearchProductId.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductId.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductId.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\Pages\\SearchProductId.razor",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T17:03:41.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Products.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\Products.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Products.razor",
@@ -734,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "20250526131528_ShoppingCartItem.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Migrations\\20250526131528_ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Migrations\\20250526131528_ShoppingCartItem.cs",
@@ -746,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Labb2-Fullstack.http",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\Labb2-Fullstack.http",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\Labb2-Fullstack.http",
@@ -758,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\Labb2-Fullstack\\appsettings.json",
               "RelativeDocumentMoniker": "Labb2-Fullstack\\appsettings.json",
@@ -770,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
@@ -782,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -793,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "SearchProductName.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchProductName.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchProductName.razor",
@@ -805,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "SearchByEmail.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\SearchByEmail.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\SearchByEmail.razor",
@@ -817,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "EditCustomer.razor",
               "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\Pages\\EditCustomer.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\EditCustomer.razor",
@@ -829,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -838,18 +871,6 @@
               "ViewState": "AgIAAAQTAAAAAAAAAAAswBUTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-04-04T11:29:34.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorApp\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\saman\\source\\repos\\Labb2-Fullstack\\BlazorApp\\Components\\_Imports.razor",
-              "RelativeToolTip": "BlazorApp\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T11:29:14.007Z"
             },
             {
               "$type": "Document",

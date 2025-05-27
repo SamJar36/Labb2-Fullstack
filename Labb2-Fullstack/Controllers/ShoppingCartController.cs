@@ -35,9 +35,19 @@ namespace Labb2_REST_API.Controllers
         }
 
         [HttpDelete("{customerId}/{productId}")]
-        public async Task<IActionResult> DeleteCustomer(Guid customerId, int productId)
+        public async Task<IActionResult> Delete(Guid customerId, int productId)
         {
             var success = await _repository.RemoveShoppingCartItemAsync(customerId, productId);
+            if (!success)
+            {
+                return NotFound();
+            }
+            return Ok(new { Message = "Customer deleted successfully." });
+        }
+        [HttpDelete("all/{customerId}")]
+        public async Task<IActionResult> DeleteAll(Guid customerId)
+        {
+            var success = await _repository.RemoveAllFromShoppingCartAsync(customerId);
             if (!success)
             {
                 return NotFound();

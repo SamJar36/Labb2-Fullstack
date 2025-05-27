@@ -254,7 +254,7 @@
   },
   {
     "ContainingType": "Labb2_REST_API.Controllers.ShoppingCartController",
-    "Method": "DeleteCustomer",
+    "Method": "Delete",
     "RelativePath": "api/shoppingcart/{customerId}/{productId}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -283,6 +283,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.ShoppingCartController",
+    "Method": "DeleteAll",
+    "RelativePath": "api/shoppingcart/all/{customerId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
         "Type": "System.Guid",
         "IsRequired": true
       }

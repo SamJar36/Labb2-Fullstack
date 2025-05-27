@@ -12,5 +12,6 @@ public class Product
     public decimal Price { get; set; }
     public string ProductCategory { get; set; } = null!;
     public string Status { get; set; } = null!;
+    [JsonIgnore]
     public ICollection<OrderProduct>? OrderProducts { get; set; } = new List<OrderProduct>();
 }

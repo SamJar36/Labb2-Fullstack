@@ -106,10 +106,15 @@ else
 			}).ToList()
 		};
 
-		var response = await Http.PostAsJsonAsync("api/order", createOrder);
+		var response = await Http.PostAsJsonAsync("api/orders", createOrder);
 		if (response.IsSuccessStatusCode)
 		{
-			shoppingCartItems.Clear();
+			Guid customerId = selectedCustomer.Id;
+			var response2 = await Http.DeleteAsync($"api/shoppingcart/all/{customerId}");
+			if (response2.IsSuccessStatusCode)
+			{
+				shoppingCartItems.Clear();
+			}
 		}
 	}
 }

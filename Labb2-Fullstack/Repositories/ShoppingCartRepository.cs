@@ -69,5 +69,19 @@ namespace Labb2_REST_API.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<bool> RemoveAllFromShoppingCartAsync(Guid customerId)
+        {
+            var itemsToRemove = await _context.ShoppingCartItems
+                .Where(i => i.CustomerId == customerId)
+                .ToListAsync();
+
+            if (!itemsToRemove.Any())
+                return false;
+
+            _context.ShoppingCartItems.RemoveRange(itemsToRemove);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }
