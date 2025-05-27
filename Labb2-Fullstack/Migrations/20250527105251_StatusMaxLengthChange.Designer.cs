@@ -4,6 +4,7 @@ using Labb2_REST_API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Labb2_Fullstack.Migrations
 {
     [DbContext(typeof(FullstackContext))]
-    partial class FullstackContextModelSnapshot : ModelSnapshot
+    [Migration("20250527105251_StatusMaxLengthChange")]
+    partial class StatusMaxLengthChange
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

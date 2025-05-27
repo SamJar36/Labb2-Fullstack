@@ -80,64 +80,6 @@
   },
   {
     "ContainingType": "Labb2_REST_API.Controllers.CustomersController",
-    "Method": "AddOrder",
-    "RelativePath": "api/customers/orders/{customerId}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "customerId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "product",
-        "Type": "Labb2_REST_API.Models.Product",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Labb2_REST_API.Controllers.CustomersController",
-    "Method": "DeleteOrder",
-    "RelativePath": "api/customers/orders/{customerId}/{productId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "customerId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "productId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Labb2_REST_API.Controllers.CustomersController",
-    "Method": "GetAllOrders",
-    "RelativePath": "api/customers/orders/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Labb2_REST_API.Controllers.CustomersController",
     "Method": "FindCustomerByEmail",
     "RelativePath": "api/customers/search-by-email/{email}",
     "HttpMethod": "GET",
@@ -263,6 +205,43 @@
       {
         "Name": "name",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.ShoppingCartController",
+    "Method": "AddToShoppingCart",
+    "RelativePath": "api/shoppingcart/{customerId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Labb2_REST_API.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.ShoppingCartController",
+    "Method": "GetAll",
+    "RelativePath": "api/shoppingcart/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

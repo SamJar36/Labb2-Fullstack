@@ -26,7 +26,7 @@ namespace Labb2_REST_API.Repositories
 
 		public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
 		{
-			return await _context.Customers.Include("Products").ToListAsync();
+			return await _context.Customers.ToListAsync();
 		}
         
         public async Task<Customer> FindCustomerByEmailAsync(string email)

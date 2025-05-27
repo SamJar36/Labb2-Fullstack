@@ -70,20 +70,20 @@ else
 	}
 	private async Task RemoveProduct(int productId)
 	{
-		Guid customerId = selectedCustomer.Id;
-		var response = await Http.DeleteAsync($"api/customers/orders/{customerId}/{productId}");
+		// Guid customerId = selectedCustomer.Id;
+		// var response = await Http.DeleteAsync($"api/customers/orders/{customerId}/{productId}");
 
-		if (response.IsSuccessStatusCode)
-		{
-			var product = selectedCustomer.Products.FirstOrDefault(c => c.Id == productId);
-			if (product != null)
-			{
-				selectedCustomer.Products.Remove(product);
-			}
-			else
-			{
-				Console.WriteLine("Error deleting customer");
-			}
-		}
+		// if (response.IsSuccessStatusCode)
+		// {
+		// 	var product = selectedCustomer.Products.FirstOrDefault(c => c.Id == productId);
+		// 	if (product != null)
+		// 	{
+		// 		selectedCustomer.Products.Remove(product);
+		// 	}
+		// 	else
+		// 	{
+		// 		Console.WriteLine("Error deleting customer");
+		// 	}
+		// }
 	}
 }

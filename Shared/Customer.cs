@@ -13,7 +13,6 @@
         public string PhoneNumber { get; set; } = null!;
 
         public string Address { get; set; } = null!;
-        public List<Product> Products { get; set; } = new List<Product>();
     }
     public class CreateCustomerRequest
     {

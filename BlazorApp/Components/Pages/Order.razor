@@ -56,7 +56,7 @@ else
     private List<Customer> customers;
     private List<Product> products;
     private Customer? selectedCustomer;
-    private Product productWithId;
+    private Product product;
 
     private Guid customerId { get; set; }
 
@@ -69,7 +69,7 @@ else
 
     private async Task BuyProduct(int productId)
     {
-        customerId = selectedCustomer.Id;
+        var customerId = selectedCustomer.Id;
 
         var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
 
@@ -78,19 +78,18 @@ else
             var product = products.FirstOrDefault(c => c.Id == productId);
             if (product != null)
             {
-                productWithId = product;
+                this.product = product;
             }
-
         }
-        var response2 = await Http.PostAsJsonAsync($"api/customers/orders/{customerId}", productWithId);
+        var response2 = await Http.PostAsJsonAsync($"api/shoppingcart/{customerId}", product);
 
         if (response2.IsSuccessStatusCode)
         {
-            int index = customers.FindIndex(c => c.Id == customerId);
-            if (index != -1)
-            {
-                customers[index].Products.Add(productWithId);
-            }
+            // int index = customers.FindIndex(c => c.Id == customerId);
+            // if (index != -1)
+            // {
+            //     customers[index].Products.Add(product);
+            // }
         }
     }
 

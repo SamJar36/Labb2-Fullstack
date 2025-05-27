@@ -46,7 +46,7 @@ public partial class FullstackContext : DbContext
             entity.Property(p => p.ProductDescription).IsRequired().HasMaxLength(200);
             entity.Property(p => p.Price).IsRequired().HasColumnType("decimal(18,2)");
             entity.Property(p => p.ProductCategory).IsRequired().HasMaxLength(100);
-            entity.Property(p => p.Status).IsRequired().HasMaxLength(10);
+            entity.Property(p => p.Status).IsRequired().HasMaxLength(20);
         });
 
         modelBuilder.Entity<ShoppingCartItem>(entity =>
