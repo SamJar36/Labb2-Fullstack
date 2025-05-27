@@ -1,0 +1,57 @@
+﻿@page "/view-order/{orderId:int}"
+@rendermode InteractiveServer
+@using Shared
+@inject HttpClient Http
+
+<h3>View Order</h3>
+
+@if (viewedOrder == null)
+{
+	<p>Loading...</p>
+}
+else
+{
+	@if (viewedOrder.OrderProducts == null || !viewedOrder.OrderProducts.Any())
+	{
+		<p>No products in this order.</p>
+	}
+	else
+	{
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Product Name</th>
+					<th>Quantity</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var op in viewedOrder.OrderProducts)
+				{
+					<tr>
+						<td>@op.Product?.ProductName</td>
+						<td>@op.Quantity</td>
+						<td>@op.Price.ToString("C")</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<div class="mt-2">
+			<strong>Total price:</strong>
+			@viewedOrder.OrderProducts.Sum(op => op.Price).ToString("C")
+		</div>
+	}
+}
+
+@code {
+	[Parameter]
+	public int orderId { get; set; }
+	private Order viewedOrder = new();
+	private List<Order> allOrders = new();
+
+	protected override async Task OnParametersSetAsync()
+	{
+		allOrders = await Http.GetFromJsonAsync<List<Order>>("api/orders");
+		viewedOrder = allOrders.FirstOrDefault(o => o.Id == orderId);
+	}
+}

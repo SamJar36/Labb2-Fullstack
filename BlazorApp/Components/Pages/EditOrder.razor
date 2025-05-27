@@ -27,8 +27,8 @@
 @code {
 	[Parameter]
 	public int orderId { get; set; }
-	private Order editedOrder { get; set; } = new Order();
-	private List<Order> allOrders { get; set; }
+	private Order editedOrder = new ();
+	private List<Order> allOrders = new();
 	private bool isSuccess;
 
 	protected override async Task OnParametersSetAsync()

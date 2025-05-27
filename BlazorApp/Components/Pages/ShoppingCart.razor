@@ -48,7 +48,10 @@ else
 		</tbody>
 		@if (shoppingCartItems != null && shoppingCartItems.Any())
 		{
-			<button @onclick="OrderProducts">Order products</button>
+			<div class="d-flex align-items-center mb-2 gap-3">
+				<button @onclick="OrderProducts" class="btn btn-primary">Order products</button>
+				<span><strong>Total price:</strong> @shoppingCartItems.Sum(item => item.Price).ToString("C")</span>
+			</div>
 		}
 	</table>
 }

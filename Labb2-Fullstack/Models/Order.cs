@@ -14,7 +14,7 @@
         public Customer? Customer { get; set; }
 
         public DateTime OrderDate { get; set; }
-        public decimal TotalPrice => OrderProducts?.Sum(op => op.Price * op.Quantity) ?? 0;
+        public decimal TotalPrice => OrderProducts?.Sum(op => op.Price) ?? 0;
         public OrderStatus Status { get; set; }
         public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
     }
