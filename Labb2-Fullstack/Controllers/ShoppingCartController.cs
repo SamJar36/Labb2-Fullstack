@@ -33,5 +33,16 @@ namespace Labb2_REST_API.Controllers
             var addedItem = await _repository.AddShoppingCartItemAsync(request.CustomerId, request.ProductId);
             return Ok(addedItem);
         }
+
+        [HttpDelete("{customerId}/{productId}")]
+        public async Task<IActionResult> DeleteCustomer(Guid customerId, int productId)
+        {
+            var success = await _repository.RemoveShoppingCartItemAsync(customerId, productId);
+            if (!success)
+            {
+                return NotFound();
+            }
+            return Ok(new { Message = "Customer deleted successfully." });
+        }
     }
 }

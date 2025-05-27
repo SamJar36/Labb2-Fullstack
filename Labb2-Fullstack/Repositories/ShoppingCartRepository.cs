@@ -47,5 +47,27 @@ namespace Labb2_REST_API.Repositories
                 .Include(i => i.Product)
                 .FirstOrDefaultAsync(i => i.CustomerId == customerId && i.ProductId == productId);
         }
+
+        public async Task<bool> RemoveShoppingCartItemAsync(Guid customerId, int productId)
+        {
+            var itemToRemove = await _context.ShoppingCartItems
+                .FirstOrDefaultAsync(i => i.CustomerId == customerId && i.ProductId == productId);
+
+            if (itemToRemove == null)
+                return false;
+
+            if (itemToRemove.Quantity > 1)
+            {
+                itemToRemove.Quantity -= 1;
+                _context.ShoppingCartItems.Update(itemToRemove);
+            }
+            else
+            {
+                _context.ShoppingCartItems.Remove(itemToRemove);
+            }
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }
