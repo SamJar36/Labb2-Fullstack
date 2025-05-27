@@ -35,7 +35,7 @@ public class OrderController : ControllerBase
         Shared.Order newOrder = new Shared.Order
         {
             CustomerId = request.CustomerId,
-            OrderDate = DateTime.UtcNow,
+            OrderDate = DateTime.Now,
             Status = Shared.OrderStatus.Shipped,
             OrderProducts = request.Items.Select(item => new Shared.OrderProduct
             {
@@ -57,6 +57,12 @@ public class OrderController : ControllerBase
             return NotFound();
         }
         return Ok(new { Message = "Order deleted successfully." });
+    }
+    [HttpPut("status")]
+    public async Task<IActionResult> UpdateStatus([FromBody] OrderStatusUpdateDto dto)
+    {
+        await _repository.UpdateStatusAsync(dto.Id, dto.Status);
+        return NoContent();
     }
 }
 

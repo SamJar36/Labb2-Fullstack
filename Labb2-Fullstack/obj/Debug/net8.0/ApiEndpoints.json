@@ -137,6 +137,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Labb2_REST_API.Controllers.OrderController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/orders/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Shared.OrderStatusUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/products",

@@ -8,7 +8,7 @@ namespace Labb2_REST_API.Repositories
         //Task<Order?> GetByIdAsync(int orderId);
         //Task<List<Order>> GetByUserIdAsync(int userId);
         Task<Shared.Order> AddAsync(Shared.Order order);
-        //Task UpdateAsync(Order order);
+        Task UpdateStatusAsync(int orderId, Shared.OrderStatus newStatus);
         Task<bool> DeleteAsync(int orderId);
     }
 }

@@ -54,5 +54,16 @@ namespace Labb2_REST_API.Repositories
             }
             else { return false; }
         }
+        public async Task UpdateStatusAsync(int orderId, Shared.OrderStatus newStatus)
+        {
+            var existingOrder = await _context.Orders
+                .FirstOrDefaultAsync(o => o.Id == orderId);
+
+            if (existingOrder != null)
+            {
+                existingOrder.Status = (Models.OrderStatus)newStatus;
+                await _context.SaveChangesAsync();
+            }
+        }
     }
 }
