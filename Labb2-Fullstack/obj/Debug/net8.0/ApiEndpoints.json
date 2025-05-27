@@ -121,6 +121,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Labb2_REST_API.Controllers.OrderController",
+    "Method": "Delete",
+    "RelativePath": "api/orders/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/products",

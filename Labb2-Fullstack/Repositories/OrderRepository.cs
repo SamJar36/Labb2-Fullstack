@@ -39,5 +39,20 @@ namespace Labb2_REST_API.Repositories
             sharedOrder.Id = efOrder.Id;
             return sharedOrder;
         }
+        public async Task<bool> DeleteAsync(int orderId)
+        {
+            var order = await _context.Orders
+                            .Include(o => o.OrderProducts)
+                            .FirstOrDefaultAsync(o => o.Id == orderId);
+
+            if (order != null)
+            {
+                _context.OrderProducts.RemoveRange(order.OrderProducts);
+                _context.Orders.Remove(order);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            else { return false; }
+        }
     }
 }

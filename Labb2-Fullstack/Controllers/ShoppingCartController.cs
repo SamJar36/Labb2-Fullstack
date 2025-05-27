@@ -42,7 +42,7 @@ namespace Labb2_REST_API.Controllers
             {
                 return NotFound();
             }
-            return Ok(new { Message = "Customer deleted successfully." });
+            return Ok(new { Message = "Shopping cart item deleted successfully." });
         }
         [HttpDelete("all/{customerId}")]
         public async Task<IActionResult> DeleteAll(Guid customerId)
@@ -52,7 +52,7 @@ namespace Labb2_REST_API.Controllers
             {
                 return NotFound();
             }
-            return Ok(new { Message = "Customer deleted successfully." });
+            return Ok(new { Message = "Shoppingcart cleared." });
         }
     }
 }

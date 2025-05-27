@@ -62,8 +62,16 @@ else
     {
 
     }
-    public void DeleteOrder(int id)
+    public async Task DeleteOrder(int orderId)
     {
-        
+        var response = await Http.DeleteAsync($"api/orders/{orderId}");
+        if (response.IsSuccessStatusCode)
+        {
+            var toRemove = allOrders.SingleOrDefault(o => o.Id == orderId);
+            if (toRemove != null)
+            {
+                allOrders.Remove(toRemove);
+            }
+        }
     }
 }

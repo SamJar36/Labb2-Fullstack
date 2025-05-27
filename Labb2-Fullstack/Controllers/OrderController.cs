@@ -48,4 +48,15 @@ public class OrderController : ControllerBase
         Shared.Order createdOrder = await _repository.AddAsync(newOrder);
         return Ok(createdOrder);
     }
+    [HttpDelete("{orderId}")]
+    public async Task<IActionResult> Delete(int orderId)
+    {
+        var success = await _repository.DeleteAsync(orderId);
+        if (!success)
+        {
+            return NotFound();
+        }
+        return Ok(new { Message = "Order deleted successfully." });
+    }
 }
+
