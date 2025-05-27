@@ -95,6 +95,21 @@ else
 	}
 	private async Task OrderProducts()
 	{
-		
+		var createOrder = new CreateOrderRequest
+		{
+			CustomerId = selectedCustomer.Id,
+			Items = shoppingCartItems.Select(item => new OrderItemDto
+			{
+				ProductId = item.ProductId,
+				Quantity = item.Quantity,
+				Price = item.Price
+			}).ToList()
+		};
+
+		var response = await Http.PostAsJsonAsync("api/order", createOrder);
+		if (response.IsSuccessStatusCode)
+		{
+			shoppingCartItems.Clear();
+		}
 	}
 }

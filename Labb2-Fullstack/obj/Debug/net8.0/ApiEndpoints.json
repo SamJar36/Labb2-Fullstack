@@ -95,6 +95,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Labb2_REST_API.Controllers.OrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb2_REST_API.Controllers.OrderController",
+    "Method": "Create",
+    "RelativePath": "api/orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Shared.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Labb2_REST_API.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/products",

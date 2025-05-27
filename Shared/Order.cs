@@ -1,4 +1,4 @@
-﻿namespace Labb2_REST_API.Models
+﻿namespace Shared
 {
     public enum OrderStatus
     {
@@ -17,5 +17,16 @@
         public decimal TotalPrice => OrderProducts?.Sum(op => op.Price * op.Quantity) ?? 0;
         public OrderStatus Status { get; set; }
         public ICollection<OrderProduct> OrderProducts { get; set; } = new List<OrderProduct>();
+    }
+    public class CreateOrderRequest
+    {
+        public Guid CustomerId { get; set; }
+        public List<OrderItemDto> Items { get; set; }
+    }
+    public class OrderItemDto
+    {
+        public int ProductId { get; set; }
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
     }
 }

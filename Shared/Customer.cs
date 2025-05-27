@@ -13,6 +13,8 @@
         public string PhoneNumber { get; set; } = null!;
 
         public string Address { get; set; } = null!;
+        public ICollection<ShoppingCartItem> ShoppingCartItems { get; set; } = new List<ShoppingCartItem>();
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
     }
     public class CreateCustomerRequest
     {
