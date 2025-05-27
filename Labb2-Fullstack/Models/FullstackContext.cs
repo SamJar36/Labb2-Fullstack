@@ -16,9 +16,10 @@ public partial class FullstackContext : DbContext
     }
 
     public virtual DbSet<Customer> Customers { get; set; }
-
     public virtual DbSet<Product> Products { get; set; }
     public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderProduct> OrderProducts { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -41,6 +42,7 @@ public partial class FullstackContext : DbContext
         modelBuilder.Entity<Product>(entity =>
         {
             entity.HasKey(p => p.Id);
+            entity.Property(e => e.Id).UseIdentityColumn(60, 1);
 
             entity.Property(p => p.ProductName).IsRequired().HasMaxLength(100);
             entity.Property(p => p.ProductDescription).IsRequired().HasMaxLength(200);
@@ -52,6 +54,7 @@ public partial class FullstackContext : DbContext
         modelBuilder.Entity<ShoppingCartItem>(entity =>
         {
             entity.HasKey(sci => sci.Id);
+            entity.Property(sci => sci.Id).UseIdentityColumn(1, 1);
 
             entity.Property(sci => sci.Quantity).IsRequired();
 
@@ -64,6 +67,48 @@ public partial class FullstackContext : DbContext
                   .WithMany() 
                   .HasForeignKey(sci => sci.ProductId)
                   .OnDelete(DeleteBehavior.Restrict); 
+        });
+
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id).UseIdentityColumn(1, 1);
+
+            entity.Property(e => e.OrderDate).IsRequired();
+            entity.Property(e => e.Status)
+                  .IsRequired()
+                  .HasConversion<string>();
+
+            entity.HasOne(e => e.Customer)
+                  .WithMany(u => u.Orders)
+                  .HasForeignKey(e => e.CustomerId)
+                  .OnDelete(DeleteBehavior.SetNull);
+
+            entity.HasMany(e => e.OrderProducts)
+                  .WithOne(op => op.Order)
+                  .HasForeignKey(op => op.OrderId)
+                  .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<OrderProduct>(entity =>
+        {
+            entity.HasKey(e => new { e.OrderId, e.ProductId });
+
+            entity.Property(e => e.Quantity).IsRequired();
+            entity.Property(e => e.Price)
+                  .IsRequired()
+                  .HasPrecision(18, 2);
+
+            entity.HasOne(e => e.Order)
+                  .WithMany(e => e.OrderProducts)
+                  .HasForeignKey(e => e.OrderId)
+                  .OnDelete(DeleteBehavior.Cascade);
+
+            // Relation till Product (Restrict – produkten får inte tas bort om den används)
+            entity.HasOne(e => e.Product)
+                  .WithMany(e => e.OrderProducts)
+                  .HasForeignKey(e => e.ProductId)
+                  .OnDelete(DeleteBehavior.Restrict);
         });
     }
 }

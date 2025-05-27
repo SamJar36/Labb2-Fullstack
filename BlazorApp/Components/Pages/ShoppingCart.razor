@@ -46,6 +46,10 @@ else
 				</tr>
 			}
 		</tbody>
+		@if (shoppingCartItems != null && shoppingCartItems.Any())
+		{
+			<button @onclick="OrderProducts">Order products</button>
+		}
 	</table>
 }
 
@@ -88,5 +92,9 @@ else
 				}
 			}
 		}
+	}
+	private async Task OrderProducts()
+	{
+		
 	}
 }

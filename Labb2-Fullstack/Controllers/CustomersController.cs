@@ -88,33 +88,5 @@ namespace Labb2_REST_API.Controllers
                 Message = "Customer updated successfully.", Customer = updatedCustomer });
 		}
 
-
-        // ----------------- Orders --------------------
-        //[HttpGet("orders/{id}")]
-        //public async Task<IActionResult> GetAllOrders(Guid id)
-        //{
-        //    var products = await _repository.GetAllOrderedProductsAsync(id);
-        //    return Ok(products);
-        //}
-        //[HttpDelete("orders/{customerId}/{productId}")]
-        //public async Task<IActionResult> DeleteOrder(Guid customerId, int productId)
-        //{
-        //    var success = await _repository.RemoveOrderAsync(customerId, productId);
-        //    if (!success)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(new { Message = "Order removed successfully." });
-        //}
-        //[HttpPost("orders/{customerId}")]
-        //public async Task<IActionResult> AddOrder(Guid customerId, [FromBody] Product product)
-        //{
-        //    if (product == null)
-        //    {
-        //        return BadRequest("Product cannot be null");
-        //    }
-        //    var addedProduct = await _repository.AddOrderAsync(customerId, product);
-        //    return Ok(addedProduct);
-        //}
     }
 }
