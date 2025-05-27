@@ -53,12 +53,10 @@ else
 }
 
 @code {
-    private List<Customer> customers;
-    private List<Product> products;
-    private Customer? selectedCustomer;
-    private Product product;
-
-    private Guid customerId { get; set; }
+    private List<Customer> customers = new List<Customer>();
+    private List<Product> products = new List<Product>();
+    private Customer? selectedCustomer = new Customer();
+    private Product selectedProduct = new Product();
 
     protected override async Task OnInitializedAsync()
     {
@@ -69,27 +67,16 @@ else
 
     private async Task BuyProduct(int productId)
     {
-        var customerId = selectedCustomer.Id;
+        var request = new AddToCartRequest
+            {
+                CustomerId = selectedCustomer.Id,
+                ProductId = productId
+            };
 
-        var response = await Http.GetAsync($"api/products/search-by-id/{productId}");
-
+        var response = await Http.PostAsJsonAsync("api/shoppingcart", request);
         if (response.IsSuccessStatusCode)
         {
-            var product = products.FirstOrDefault(c => c.Id == productId);
-            if (product != null)
-            {
-                this.product = product;
-            }
-        }
-        var response2 = await Http.PostAsJsonAsync($"api/shoppingcart/{customerId}", product);
-
-        if (response2.IsSuccessStatusCode)
-        {
-            // int index = customers.FindIndex(c => c.Id == customerId);
-            // if (index != -1)
-            // {
-            //     customers[index].Products.Add(product);
-            // }
+            
         }
     }
 

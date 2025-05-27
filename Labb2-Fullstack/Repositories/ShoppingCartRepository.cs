@@ -21,10 +21,10 @@ namespace Labb2_REST_API.Repositories
                 .ToListAsync();
         }
 
-        public async Task<ShoppingCartItem> AddShoppingCartItemAsync(Guid customerId, Product product)
+        public async Task<ShoppingCartItem> AddShoppingCartItemAsync(Guid customerId, int productId)
         {
             var existingItem = await _context.ShoppingCartItems
-                .FirstOrDefaultAsync(item => item.CustomerId == customerId && item.ProductId == product.Id);
+                .FirstOrDefaultAsync(item => item.CustomerId == customerId && item.ProductId == productId);
 
             if (existingItem != null)
             {
@@ -35,7 +35,7 @@ namespace Labb2_REST_API.Repositories
                 var newItem = new ShoppingCartItem
                 {
                     CustomerId = customerId,
-                    ProductId = product.Id,
+                    ProductId = productId,
                     Quantity = 1
                 };
                 await _context.ShoppingCartItems.AddAsync(newItem);
@@ -45,7 +45,7 @@ namespace Labb2_REST_API.Repositories
 
             return await _context.ShoppingCartItems
                 .Include(i => i.Product)
-                .FirstOrDefaultAsync(i => i.CustomerId == customerId && i.ProductId == product.Id);
+                .FirstOrDefaultAsync(i => i.CustomerId == customerId && i.ProductId == productId);
         }
     }
 }

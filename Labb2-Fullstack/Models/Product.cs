@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace Labb2_REST_API.Models;
 
-public partial class Product
+public class Product
 {
     public int Id { get; set; }
 

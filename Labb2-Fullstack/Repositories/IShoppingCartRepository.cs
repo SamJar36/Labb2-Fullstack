@@ -6,6 +6,6 @@ namespace Labb2_REST_API.Repositories
     {
         Task<IEnumerable<ShoppingCartItem>> GetAllShoppingCartItemsAsync(Guid id);
         //Task<bool> RemoveShoppingCartItemAsync(Guid customerId, int productId);
-        Task<ShoppingCartItem> AddShoppingCartItemAsync(Guid id, Product product);
+        Task<ShoppingCartItem> AddShoppingCartItemAsync(Guid id, int productId);
     }
 }

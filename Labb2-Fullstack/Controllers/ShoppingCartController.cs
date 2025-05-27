@@ -1,6 +1,7 @@
-﻿using Labb2_REST_API.Repositories;
+﻿using Labb2_REST_API.Models;
+using Labb2_REST_API.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using Labb2_REST_API.Models;
+using Shared;
 
 namespace Labb2_REST_API.Controllers
 {
@@ -20,14 +21,16 @@ namespace Labb2_REST_API.Controllers
             return Ok(shoppingCartItems);
         }
 
-        [HttpPost("{customerId}")]
-        public async Task<IActionResult> AddToShoppingCart(Guid customerId, [FromBody] Product product)
+        [HttpPost]
+        public async Task<IActionResult> AddToShoppingCart([FromBody] AddToCartRequest request)
         {
-            if (product == null)
-            {
-                return BadRequest("Product cannot be null");
-            }
-            var addedItem = await _repository.AddShoppingCartItemAsync(customerId, product);
+            if (request.CustomerId == Guid.Empty)
+                return BadRequest("CustomerId is required.");
+
+            if (request.ProductId <= 0)
+                return NotFound("Product not found.");
+
+            var addedItem = await _repository.AddShoppingCartItemAsync(request.CustomerId, request.ProductId);
             return Ok(addedItem);
         }
     }

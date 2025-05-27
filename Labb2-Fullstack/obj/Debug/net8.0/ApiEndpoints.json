@@ -213,19 +213,14 @@
   {
     "ContainingType": "Labb2_REST_API.Controllers.ShoppingCartController",
     "Method": "AddToShoppingCart",
-    "RelativePath": "api/shoppingcart/{customerId}",
+    "RelativePath": "api/shoppingcart",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customerId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "product",
-        "Type": "Labb2_REST_API.Models.Product",
+        "Name": "request",
+        "Type": "Shared.AddToCartRequest",
         "IsRequired": true
       }
     ],

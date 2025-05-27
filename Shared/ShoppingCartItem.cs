@@ -20,4 +20,9 @@ namespace Shared
 
         public decimal Price => Product.Price * Quantity;
     }
+    public class AddToCartRequest
+    {
+        public Guid CustomerId { get; set; }
+        public int ProductId { get; set; }
+    }
 }

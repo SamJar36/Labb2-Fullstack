@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Labb2_REST_API.Models;
 
-public partial class Customer
+public class Customer
 {
     public Guid Id { get; set; }
 
