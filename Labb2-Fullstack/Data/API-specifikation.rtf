@@ -1,0 +1,370 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset1 Cambria Math;}{\f2\fnil\fcharset0 Cambria Math;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs48\lang29 - Customers -\fs40\par
+\fs32 POST /api/customers \par
+\b0\fs24 Skapa/registrera en ny kund\b\fs32\par
+\fs24 Body\b0\par
+\{\par
+\tab "firstName": "string"\par
+\tab "lastName": "string"\par
+\tab "email": "string"\par
+\tab "phoneNumber": "string"\par
+\tab "address": "string"\par
+\}\par
+\b 201 Created\b0\par
+\{\par
+\tab "id": "b3e1f2d8-...",\par
+\tab "firstName": "Samuel"\par
+\tab "lastName": "J\'e4rv\'e5"\par
+\tab "email": "snabeldjur@hotmail.com"\par
+\tab "phoneNumber": "0735846375"\par
+\tab "address": "brunnsgatan 51"\par
+\}\par
+\b 400 Bad Request\b0\par
+\{\par
+\tab "message": "Customer data is null."\par
+\}\par
+\line\b\fs32 GET /api/customers\par
+\b0\fs24 H\'e4mta en lista p\'e5 alla kunder\par
+\b 200 Ok\b0\par
+[\par
+
+\pard\li720\sa200\sl276\slmult1\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab "id": "b3e1f2d8-...",\par
+   \tab\tab  "firstName": "Jane",\par
+   \tab\tab  "lastName": "Doe",\par
+   \tab\tab  "email": "jane.doe@example.com",\par
+\tab\tab "phoneNumber": "0735846375",\par
+    \tab\tab "address": "123 Main St"\par
+
+\pard\li720\sa200\sl276\slmult1\},\par
+\{....\}\par
+
+\pard\sa200\sl276\slmult1 ]\par
+\b\fs32 GET /api/customers/\{id\}\par
+\b0\fs24 H\'e4mta en kund med ett specifikt Id\par
+\b Path Parameters\par
+\b0 En fungerande Guid\par
+\b 200 Ok\b0\par
+\{\par
+\tab "message": "Customer found."\par
+\tab "customer": \{ \'85 \}\par
+\}\par
+\b 400 Bad Request\b0\par
+Om id't \'e4r en Guid.Empty\par
+\b 404 Not Found\b0\par
+Om ingen kund matchar med det angivna id't\par
+\par
+\b\fs32 PUT /api/customers/\{id\}\par
+\b0\fs24 uppdatera en existerande kunds uppgifter\par
+\b Path Parameters\par
+\b0 En fungerande Guid\par
+\b Body\b0\par
+\{\par
+\tab "id": "b3e1f2d8-...",\par
+\tab "firstName": "string"\par
+\tab "lastName": "string"\par
+\tab "email": "string"\par
+\tab "phoneNumber": "string"\par
+\tab "address": "string"\par
+\}\par
+\b 201 Updated\par
+\b0\{\par
+ \tab  "message": "Customer updated successfully.",\par
+ \tab  "customer": \{ \'85updated\'85 \}\par
+\}\par
+\b 404 Not Found\b0\par
+Om ingen kund matchar med det angivna id't\par
+\par
+\b\fs32 DELETE /api/customers/\{id\}\par
+\b0\fs24 Ta bort en kund\par
+\b Path Parameters\par
+\b0 En fungerande Guid\par
+\b 200 Ok\b0\par
+\{\par
+\tab "message": "Customer deleted succesfully."\par
+\}\par
+\b 404 Not Found\b0\par
+Om ingen kund matchar med det angivna id't\par
+\par
+\b\fs32 GET /api/customers/search-by-email/\{email\}\par
+\b0\fs24 S\'f6k p\'e5 en kunds email\par
+\b Path Parameters\par
+\b0 En email address\par
+\b 200 Ok\b0\par
+\{\par
+\tab "message": "Customer email found."\par
+\tab "customer": \{....\}\par
+\}\par
+\b 400 Bad Request\b0\par
+Om email str\'e4ngen \'e4r null eller empty\par
+\b 404 Not Found\par
+\b0 Om ingen kund matchar den angivna email addressen\par
+\par
+\b\fs48 - Orders -\b0\fs24\par
+\b\fs32 GET /api/orders\par
+\b0\fs24 H\'e4mta en lista p\'e5 alla orders inklusive deras orderprodukter\par
+\b 200 Ok\b0\par
+[\par
+  \{\par
+    "id": 1,\par
+    "customerId": "b3e1f2d8-9f4a-4a1f-b2c3-5d6e7f8g9h0i",\par
+    "customer": \{....\}",\par
+    "orderDate": "2025-05-28T12:34:56Z",\par
+    "totalPrice": 59.97,\par
+    "status": "Pending",\par
+    "orderProducts": [\par
+      \{\par
+        "orderId": 1,\par
+        "productId": 42,\par
+        "quantity": 2,\par
+        "price": 19.99,\par
+        "product": \{\par
+          "id": 42,\par
+          "productName": "Wireless Mouse",\par
+          "description": "Ergonomic wireless mouse",\par
+          "price": 19.99\par
+        \}\par
+      \},\par
+      \{...\}\par
+      \}\par
+    ]\par
+  \},\par
+  \{ \'85 \}\par
+]\par
+\b 404 Not Found\par
+\b0 Om orders listan kommer tillbaka null\par
+\par
+\b\fs32 POST /api/orders\par
+\b0\fs24 Skapa en ny order\par
+\b Body\b0\par
+\{\par
+  "customerId": "00000000-0000-0000-0000-000000000000",\par
+  "items": [\par
+    \{\par
+      "productId": 42,\par
+      "quantity": 2,\par
+      "price": 19.99\par
+    \},\par
+    \{\par
+      "productId": 99,\par
+      "quantity": 1,\par
+      "price": 9.50\par
+    \}\par
+  ]\par
+\}\par
+\b 200 Ok\b0\par
+Order skapad och returnerad\par
+\b 404 Bad Request\b0\par
+Ingen order skapad eftersom ingen postdata eller inga items\par
+\par
+\b\fs32 DELETE /api/orders/\{orderId\}\b0\fs24\par
+Ta bort en order med ett specifikt ID\par
+\b Path Parameters\b0\par
+Tar in en orderId\par
+\b 200 Ok\b0\par
+Ordern har tagits bort\par
+\b 404 Not Found\b0\par
+Ingen order hittades med det angivna orderId't\par
+\par
+\b\fs32 PUT /api/orders/status\b0\fs24\par
+Uppdatera status (enbart) f\'f6r en given order\par
+\b Body\b0\par
+\{\par
+  "id": 123,\par
+  "status": "Shipped"\par
+\}\par
+\b 204 No Content\par
+\b0 Status uppdaterad utan att body returneras\par
+\b 400 Bad Request\b0\par
+\fs22 Felaktigt eller ofullst\'e4ndigt JSON i body\par
+\par
+\b\fs48 - Products -\par
+\fs32 POST /api/products\b0\fs22\par
+Skapa en ny produkt\par
+\b Body\b0\par
+\{\par
+  "productName": "string",\par
+  "productDescription": "string",\par
+  "price": 0.0,\par
+  "productCategory": "string",\par
+  "status": "string"\par
+\}\par
+\b 201 Created\b0\par
+Produkten har skapats\par
+\b 400 Bad Request\b0\par
+Ingen produkt skapad d\'e5 kroppen var null\par
+\par
+\b\fs32 GET /api/products\b0\fs22\par
+H\'e4mta en lista p\'e5 alla produkter\par
+\b 200 Ok\b0\par
+Lista av produkter\par
+\par
+\b\fs32 DELETE /api/products/\{id\}\b0\fs22\par
+Ta bort en produkt med ett specifikt ID\par
+\b Path Parameters\b0\par
+Tar in ett specifikt Id p\'e5 en produkt\par
+\b 200 OK\b0\par
+\{\par
+\tab "message": "Product deleted successfully."\par
+\tab "product": \{....\}\par
+\}\par
+\b 404 Not Found\b0\par
+Ingen produkt hittades med det angivna ID:t\par
+\par
+\b\fs32 PUT /api/products/\{id\}\b0\fs22\par
+Uppdatera en existerande produkt\par
+\b Path Parameters\b0\par
+Tar in ett specifikt Id p\'e5 en produkt\par
+\b Body\par
+\b0\{\par
+  "id": 42,\par
+  "productName": "USB-C Adapter",\par
+  "productDescription": "Adapter fr\'e5n USB-C till USB-A",\par
+  "price": 12.50,\par
+  "productCategory": "Accessories",\par
+  "status": "Pending"\par
+\}\par
+\b 200 Ok \b0\par
+\{\par
+\tab "message": "Product updated successfully"\par
+\tab "product": \{...\}\par
+\}\par
+\b 400 Bad Request\b0\par
+id i URL och body matchar inte\par
+\b 404 Not found\b0\par
+Ingen produkt hittades med det angivna id:t\par
+\par
+\b\fs32 PATCH /api/products/\{id\}/status/\{statusUpdate\}\par
+\b0\fs22 Uppdatera status f\'f6r en specifik produkt\par
+\b Path Parameters\b0\par
+Id f\'f6r Produkten och statusUpdate f\'f6r statusen (antingen "In stock" eller "Out of stock")\par
+\b 200 Ok\b0\par
+Statusen uppdaterad\par
+\b 400 Bad Request\b0\par
+Ogiltigt statusUpdate-v\'e4rde\par
+\b 404 Not Found\b0\par
+Ingen produkt hittades med det angivna id\par
+\par
+\b\fs32 GET /api/products/search-by-name/\{name\}\b0\fs22\par
+S\'f6k efter en produkt utifr\'e5n dess namn\par
+\b Path Parameters\par
+\b0 Ett namn p\'e5 kunden\par
+\b 200 Ok\b0\par
+\{\par
+  "message": "Product found.",\par
+  "product": \{\par
+    "id": 42,\par
+    "productName": "USB-C Adapter",\par
+    "productDescription": "Adapter fr\'e5n USB-C till USB-A",\par
+    "price": 12.50,\par
+    "productCategory": "Accessories",\par
+    "status": "Active"\par
+  \}\par
+\}\par
+\b 404 Not Found\b0\par
+Ingen produkt matchade det angivna namnet\par
+\par
+\b\fs32 GET /api/products/search-by-id/\{id\}\b0\fs22\par
+H\'e4mta en produkt med ett specifikt ID\par
+\b Path Parameters\b0\par
+Ett id p\'e5 kunden\par
+\b 200 Ok\b0\par
+\{\par
+  "message": "Product found.",\par
+  "product": \{\par
+    "id": 42,\par
+    "productName": "USB-C Adapter",\par
+    "productDescription": "Adapter fr\'e5n USB-C till USB-A",\par
+    "price": 12.50,\par
+    "productCategory": "Accessories",\par
+    "status": "Active"\par
+  \}\par
+\}\par
+\b 404 Not Found\b0\par
+Ingen produkt matchade det angivna id\par
+\par
+\b\fs48 - ShoppingCart -\par
+\fs32 GET /api/shoppingcart/\{id\}\b0\fs22\par
+H\'e4mta alla varukorgsartiklar f\'f6r en specifik kund\par
+\b Path Parameters\b0\par
+Ett Guid f\'f6r kunden vars varukorgsartiklar man vill h\'e4mta\par
+\b 200 Ok\b0\par
+[\par
+  \{\par
+    "id": 101,\par
+    "customerId": "b3e1f2d8-9f4a-4a1f-b2c3-5d6e7f8g9h0i",\par
+    "productId": 42,\par
+    "quantity": 3,\par
+    "price": 59.97,\par
+    "product": \{\par
+      "id": 42,\par
+      "productName": "Wireless Mouse",\par
+      "productDescription": "Ergonomic wireless mouse",\par
+      "price": 19.99,\par
+      "productCategory": "Electronics",\par
+      "status": "Pending"\par
+    \}\par
+  \},\par
+  \{\par
+    "id": 102,\par
+    "customerId": "b3e1f2d8-9f4a-4a1f-b2c3-5d6e7f8g9h0i",\par
+    "productId": 99,\par
+    "quantity": 1,\par
+    "price": 9.50,\par
+    "product": \{\par
+      "id": 99,\par
+      "productName": "Mouse Pad",\par
+      "productDescription": "Large gaming mouse pad",\par
+      "price": 9.50,\par
+      "productCategory": "Accessories",\par
+      "status": "Shipping"\par
+    \}\par
+  \}\par
+]\par
+\par
+\b\fs32 POST /api/shoppingcart\b0\fs22\par
+L\'e4gg till en produkt i en kunds varukorg\par
+\b Body\b0\par
+\{\par
+  "customerId": "b3e1f2d8-9f4a-4a1f-b2c3-5d6e7f8g9h0i",\par
+  "productId": 42\par
+\}\par
+\b 200 Ok\b0\par
+\{\par
+  "id": 101,\par
+  "customerId": "b3e1f2d8-9f4a-4a1f-b2c3-5d6e7f8g9h0i",\par
+  "productId": 42,\par
+  "quantity": 1,\par
+  "price": 19.99\par
+\}\par
+\b 400 Bad Request\b0\par
+customerId \'e4r tom (Guid.Empty)\par
+\b 404 Not Found\b0\par
+Ogiltigt productId (\f1\u8804?\f0  0) eller produkten saknas\par
+\par
+\b\fs32 DELETE /api/shoppingcart/\{customerId\}/\{productId\}\b0\fs22\par
+Ta bort en specifik produkt fr\'e5n en kunds varukorg\par
+\b Path Parameters\par
+\b0 Tar in en customerId som pekar p\'e5 en specifik kund och productId som pekar p\'e5 en specifik produkt\par
+\b 200 Ok\b0\par
+\{\par
+  "message": "Shopping cart item deleted successfully."\par
+\}\par
+\b 400 Not Found\par
+\b0 Ingen varukorgsrad matchar de angivna IDs\par
+\par
+\b\fs32 DELETE /api/shoppingcart/all/\{customerId\}\b0\fs22\par
+Rensa (ta bort alla artiklar fr\'e5n) en kunds varukorg\par
+\b Path Parameters\b0\par
+Ett Id fr\'e5n kunden vars varukorg man vill rensa\par
+\b 200 Ok\b0\par
+\{\par
+  "message": "Shoppingcart cleared."\par
+\}\par
+\cf1\highlight2\b\fs24 404 Not Found\par
+\b0 Ingen\f2  \f0 varukorg\f2  \f0 hittades\f2  \f0 f\'f6r\f2  \f0 den\f2  \f0 angivna\f2  \f0 kunden\f2  \f0 eller\f2  \f0 inget\f2  \f0 togs\f2  \f0 bort\b\fs32\par
+}
+ 

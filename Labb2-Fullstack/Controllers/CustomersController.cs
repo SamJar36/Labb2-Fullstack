@@ -87,6 +87,5 @@ namespace Labb2_REST_API.Controllers
 			return Ok(new { 
                 Message = "Customer updated successfully.", Customer = updatedCustomer });
 		}
-
     }
 }
